@@ -1,0 +1,59 @@
+Routematic RN 0.70.5 migration
+------------------------------
+
+react-native-cookies -> @react-native-cookies/cookies
+react-native-simple-encryption -> crypto-xor
+react-navigation -> @react-navigation/native
+react-native-side-menu -> react-native-side-menu-updated
+react-native-google-places("react-native-google-places": "^3.1.2",) -> react-native-google-places-native
+
+react-native-reanimated -> (removed for ios issue)
+
+react-native-geocoder -> (removed not used)
+@react-native-firebase/crashlytics -> (removed for solider issue) - https://stackoverflow.com/questions/70734154/react-native-firebase-crashlitics-couldnt-find-dso-libhermes-so
+react-native-rate -> (removed becks of Duplicate errors)
+react-native-custom-tabs - (removed - A problem occurred evaluating project ':react-native-custom-tabs'.
+> Could not find method compile() for arguments [com.facebook.react:react-native:+] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.)
+ 
+----------------
+@react-navigation/drawer
+
+
+ Error:
+ https://github.com/facebook/react-native/issues/34688
+ 
+react-native-rename "routematic" -b "com.nivaata.routematic.intune"
+-----------------------------------------------------------
+customized_node_modules
+#.1) -> replace lib with customized_node_modules
+ To get my app building again I just added this to react-native-google-places android/build.grade file inside of node_modules:
+
+implementation('com.google.android.libraries.places:places:1.1.0') {
+        exclude group: 'com.android.volley'
+    }
+ implementation 'com.android.volley:volley:1.2.0'
+
+ #.2) allowFontScaling propTypes -> ViewPropTypes
+ Button.js - react-native-button
+ https://github.com/facebook/react-native/issues/34408
+
+ #.3) Invariant Violation: ViewPropTypes has been removed from React Native. Migrate to ViewPropTypes exported from 'deprecated-react-native-prop-types'
+ https://stackoverflow.com/questions/72755476/invariant-violation-viewproptypes-has-been-removed-from-react-native-migrate-t
+-> Go to node_modules/react-native/index.js starting around line 436 and change this:
+// Deprecated Prop Types
+  get ColorPropType(): $FlowFixMe {
+    return require("deprecated-react-native-prop-types").ColorPropType
+  },
+  get EdgeInsetsPropType(): $FlowFixMe {
+    return require("deprecated-react-native-prop-types").EdgeInsetsPropType
+  },
+  get PointPropType(): $FlowFixMe {
+    return require("deprecated-react-native-prop-types").PointPropType
+  },
+  get ViewPropTypes(): $FlowFixMe {
+    return require("deprecated-react-native-prop-types").ViewPropTypes
+  },
+-> Run npx patch-package react-native to save the patch.
+-> Rebuild the app.
+
+#4. // [GMSServices setMetalRendererEnabled:YES]; in ios/AirGoogleMaps/AIRGoogleMapManager.m, line no 48 in react-native-maps/ios/

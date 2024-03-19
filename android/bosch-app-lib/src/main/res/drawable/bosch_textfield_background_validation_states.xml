@@ -1,0 +1,14 @@
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/bosch_textfield_background_validation_off"
+        android:maxLevel="0"/>
+    <item
+        android:drawable="@drawable/bosch_textfield_background_validation_ok"
+        android:maxLevel="1"/>
+    <item
+        android:drawable="@drawable/bosch_textfield_background_validation_warning"
+        android:maxLevel="2"/>
+    <item
+        android:drawable="@drawable/bosch_textfield_background_validation_error"
+        android:maxLevel="3"/>
+</level-list>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Master-brand colors-->
+    <!--Shades of Red-->
+    <color name="boschRedW75">#F8BFC5</color>
+    <color name="boschRedW50">#F17F8B</color>
+    <color name="boschRedW25">#EA4051</color>
+    <color name="boschRed">#E30015</color>
+    <color name="boschRedB25">#A90010</color>
+    <color name="boschRedB50">#71000B</color>
+    <color name="boschRedB75">#390005</color>
+    <color name="hintTextColor">#000000</color>
+    <color name="endIconTint">#000000</color>
+
+    <!--Shades of Fuchsia-->
+    <color name="boschFuchsiaW75">#EDC0DD</color>
+    <color name="boschFuchsiaW50">#DC80BA</color>
+    <color name="boschFuchsiaW25">#CB4198</color>
+    <color name="boschFuchsia">#B90276</color>
+    <color name="boschFuchsiaB25">#8B0158</color>
+    <color name="boschFuchsiaB50">#5D013B</color>
+    <color name="boschFuchsiaB75">#2E011E</color>
+
+    <!--Shades of Violet-->
+    <color name="boschVioletW75">#D3C8DF</color>
+    <color name="boschVioletW50">#A791BF</color>
+    <color name="boschVioletW25">#7C5A9F</color>
+    <color name="boschViolet">#50237F</color>
+    <color name="boschVioletB25">#3C1A5F</color>
+    <color name="boschVioletB50">#281240</color>
+    <color name="boschVioletB75">#140920</color>
+
+    <!--Shades of Dark Blue-->
+    <color name="boschDarkBlueW75">#BFD5E3</color>
+    <color name="boschDarkBlueW50">#7FAAC8</color>
+    <color name="boschDarkBlueW25">#4080AD</color>
+    <color name="boschDarkBlue">#005691</color>
+    <color name="boschDarkBlueB25">#00406D</color>
+    <color name="boschDarkBlueB50">#002B49</color>
+    <color name="boschDarkBlueB75">#001624</color>
+
+    <!--Shades of Light Blue-->
+    <color name="boschLightBlueW75">#BFE3F3</color>
+    <color name="boschLightBlueW50">#7FC6E7</color>
+    <color name="boschLightBlueW25">#40AADB</color>
+    <color name="boschLightBlue">#008ECF</color>
+    <color name="boschLightBlueB25">#006A9B</color>
+    <color name="boschLightBlueB50">#004768</color>
+    <color name="boschLightBlueB75">#002434</color>
+
+    <!--Shades of Turquoise-->
+    <color name="boschTurquoiseW75">#BFE9EB</color>
+    <color name="boschTurquoiseW50">#7FD3D7</color>
+    <color name="boschTurquoiseW25">#40BEC4</color>
+    <color name="boschTurquoise">#00A8B0</color>
+    <color name="boschTurquoiseB25">#007E84</color>
+    <color name="boschTurquoiseB50">#005458</color>
+    <color name="boschTurquoiseB75">#002A2C</color>
+
+    <!--Shades of Light Green-->
+    <color name="boschLightGreenW75">#DDEFC7</color>
+    <color name="boschLightGreenW50">#BBDE8F</color>
+    <color name="boschLightGreenW25">#9ACE58</color>
+    <color name="boschLightGreen">#78BE20</color>
+    <color name="boschLightGreenB25">#5A8E18</color>
+    <color name="boschLightGreenB50">#3C5F10</color>
+    <color name="boschLightGreenB75">#1E3008</color>
+
+    <!--Shades of Dark Green-->
+    <color name="boschDarkGreenW75">#BFD8D1</color>
+    <color name="boschDarkGreenW50">#7FB0A4</color>
+    <color name="boschDarkGreenW25">#408977</color>
+    <color name="boschDarkGreen">#006249</color>
+    <color name="boschDarkGreenB25">#004937</color>
+    <color name="boschDarkGreenB50">#003125</color>
+    <color name="boschDarkGreenB75">#001912</color>
+
+    <!--Support Colors-->
+    <color name="boschWhite">#FFFFFF</color>
+    <color name="boschBlack">#000000</color>
+
+    <!--Shades of Light Gray-->
+    <color name="boschLightGrayW75">#EFEFF0</color>
+    <color name="boschLightGrayW50">#DFDFE0</color>
+    <color name="boschLightGrayW25">#CFD0D1</color>
+    <color name="boschLightGray">#BFC0C2</color>
+    <color name="boschLightGrayB25">#8F9091</color>
+    <color name="boschLightGrayB50">#606061</color>
+    <color name="boschLightGrayB75">#303031</color>
+
+    <!--Shades of Dark Gray-->
+    <color name="boschDarkGrayW75">#D4D7DA</color>
+    <color name="boschDarkGrayW50">#A8AFB5</color>
+    <color name="boschDarkGrayW25">#7D8790</color>
+    <color name="boschDarkGray">#525F6B</color>
+    <color name="boschDarkGrayB25">#3D4750</color>
+    <color name="boschDarkGrayB50">#293036</color>
+    <color name="boschDarkGrayB75">#15181B</color>
+    
+    <!--Shades of Yellow-->
+    <color name="boschYellowW75">#FEEBC5</color>
+    <color name="boschYellowW50">#FDD78B</color>
+    <color name="boschYellowW25">#FDC351</color>
+    <color name="boschYellow">#FCAF17</color>
+    <color name="boschYellowB25">#BD8311</color>
+    <color name="boschYellowB50">#7E580C</color>
+    <color name="boschYellowB75">#3F2C06</color>
+
+    <color name="boschBlurGray">#80DFDFE0</color>
+</resources>

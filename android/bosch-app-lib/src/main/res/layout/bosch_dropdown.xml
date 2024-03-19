@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/gu6"
+              android:layout_gravity="center"
+              android:baselineAligned="false"
+              android:duplicateParentState="true"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bosch_dropdown_background"
+        android:duplicateParentState="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:duplicateParentState="true"
+            android:orientation="vertical">
+
+            <com.bosch.app.lib.widget.BoschLabel
+                android:id="@+id/dropdownLabel"
+                style="@style/Widget.Bosch.Dropdown.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item 1"
+                android:visibility="gone"/>
+
+            <com.bosch.app.lib.widget.BoschLabel
+                android:id="@+id/dropdownText"
+                style="@style/Widget.Bosch.Dropdown.Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item 1"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="@dimen/gu1.5"
+            android:duplicateParentState="true"
+            android:src="@drawable/bosch_dropdown_icon"
+            android:tint="@color/bosch_dropdown_icon"/>
+
+    </LinearLayout>
+
+</LinearLayout>

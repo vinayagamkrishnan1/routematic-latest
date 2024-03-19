@@ -1,0 +1,69 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 effective-4.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -module-name ParkZeus
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Alamofire_SwiftyJSON
+import BoschUILibrary
+import CommonCrypto
+import CoreLocation
+import Cosmos
+import EVReflection
+import Foundation
+import GoogleMaps
+import GooglePlaces
+import IQKeyboardManagerSwift
+import KeychainSwift
+@_exported import ParkZeus
+import Swift
+import SwiftyJSON
+import Toast_Swift
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PZTextField : UIKit.UITextField {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var isEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public func setTitle(title: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public var validationState: BoschUILibrary.BoschValidationState {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var validationText: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func placeholderRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func becomeFirstResponder() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func resignFirstResponder() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func canPerformAction(_ action: ObjectiveC.Selector, withSender sender: Any?) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PZEnvironment {
+  @objc deinit
+}
+extension CoreFoundation.CGSize {
+  public func fitsIn(_ size2: CoreFoundation.CGSize) -> Swift.Bool
+}
+extension UIKit.UINavigationController : UIKit.UINavigationControllerDelegate {
+}
+extension UIKit.UITableView {
+  @_Concurrency.MainActor(unsafe) public func registerCells<T>(_ cells: [T.Type]) where T : UIKit.UITableViewCell
+}
+extension UIKit.UICollectionView {
+  @_Concurrency.MainActor(unsafe) public func registerCells<T>(_ cells: [T.Type]) where T : UIKit.UICollectionViewCell
+}
+@objc @_inheritsConvenienceInitializers public class PZController : ObjectiveC.NSObject {
+  public func loadParkZeus(on navigationController: UIKit.UINavigationController, with email: Swift.String, userInfo: Swift.String, endpointMCP: Swift.String, access_token: Swift.String)
+  public static func logOut()
+  @objc override dynamic public init()
+  @objc deinit
+}

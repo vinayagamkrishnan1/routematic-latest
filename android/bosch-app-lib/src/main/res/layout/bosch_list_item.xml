@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:duplicateParentState="true"
+              android:clickable="true"
+              android:longClickable="true"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+
+    <com.bosch.app.lib.widget.BoschImageView
+        android:id="@+id/list_icon_left"
+        android:layout_width="@dimen/gu3"
+        android:layout_height="@dimen/gu3"
+        android:layout_marginBottom="@dimen/gu1.5"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginStart="@dimen/gu1.5"
+        android:layout_marginTop="@dimen/gu1.5"
+        android:src="@drawable/bosch_ic_home"
+        android:tint="@color/bosch_list_item"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:duplicateParentState="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/gu2"
+        android:paddingStart="@dimen/gu2">
+
+        <com.bosch.app.lib.widget.BoschLabel
+            android:id="@+id/list_title"
+            style="@style/Widget.Bosch.Label.Standard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="@string/app_name"
+            android:ellipsize="end"
+            android:textColor="@color/bosch_list_item"/>
+
+        <com.bosch.app.lib.widget.BoschLabel
+            android:id="@+id/list_subtitle"
+            style="@style/Widget.Bosch.Label.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/app_name"
+            android:textColor="@color/bosch_list_item"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_status_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:duplicateParentState="true"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.bosch.app.lib.widget.BoschLabel
+            android:id="@+id/list_status"
+            style="@style/Widget.Bosch.Label.Standard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:gravity="center_vertical|right"
+            android:maxLines="1"
+            android:text="Status"
+            android:textColor="@color/bosch_list_item_status"/>
+
+        <com.bosch.app.lib.widget.BoschImageView
+            android:id="@+id/list_status_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bosch_ic_list_arrow"
+            android:tint="@color/bosch_list_item"/>
+
+    </LinearLayout>
+
+
+    <com.bosch.app.lib.widget.BoschImageView
+        android:id="@+id/list_icon_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/gu1.5"
+        android:src="@drawable/bosch_ic_list_arrow"
+        android:tint="@color/bosch_list_item"/>
+
+    <com.bosch.app.lib.widget.BoschCheckBox
+        android:id="@+id/list_checkbox"
+        style="@style/Widget.Bosch.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:visibility="gone"/>
+
+    <com.bosch.app.lib.widget.BoschSwitch
+        android:id="@+id/list_switch"
+        style="@style/Widget.Bosch.Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:visibility="gone"/>
+
+    <com.bosch.app.lib.widget.BoschRadioButton
+        android:id="@+id/list_radio_button"
+        style="@style/Widget.Bosch.RadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

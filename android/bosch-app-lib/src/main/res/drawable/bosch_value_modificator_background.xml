@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0">
+        <layer-list>
+            <item
+                android:left="-2dp"
+                android:right="-2dp"
+                android:top="-2dp">
+                <shape android:shape="rectangle">
+                    <stroke
+                        android:width="@dimen/lu"
+                        android:color="@color/boschLightGray"/>
+                    <solid android:color="@android:color/transparent"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:maxLevel="1">
+        <layer-list>
+            <item
+                android:left="-2dp"
+                android:right="-2dp"
+                android:top="-2dp">
+                <shape android:shape="rectangle">
+                    <stroke
+                        android:width="@dimen/lu"
+                        android:color="@color/boschLightGreen"/>
+                    <solid android:color="@android:color/transparent"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:maxLevel="2">
+        <layer-list>
+            <item
+                android:left="-2dp"
+                android:right="-2dp"
+                android:top="-2dp">
+                <shape android:shape="rectangle">
+                    <stroke
+                        android:width="@dimen/lu"
+                        android:color="@color/boschYellow"/>
+                    <solid android:color="@android:color/transparent"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:maxLevel="3">
+        <layer-list>
+            <item
+                android:left="-2dp"
+                android:right="-2dp"
+                android:top="-2dp">
+                <shape android:shape="rectangle">
+                    <stroke
+                        android:width="@dimen/lu"
+                        android:color="@color/boschRed"/>
+                    <solid android:color="@android:color/transparent"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</level-list>

@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "293130980375",
+    "firebase_url": "https://employeeapp-bd5e3.firebaseio.com",
+    "project_id": "employeeapp-bd5e3",
+    "storage_bucket": "employeeapp-bd5e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293130980375:android:730d8d6c01b80787ace052",
+        "android_client_info": {
+          "package_name": "com.eygsl.cbs.routematicqa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293130980375-5t4b9lomuntqajhntn9957ev1nunmlc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzVFrSHXob_sb-NR8pDy5LkM-EBMdb8Wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293130980375-5t4b9lomuntqajhntn9957ev1nunmlc6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "293130980375-72mkjjn19mggokmotbejm6e8qnkth6m4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nivaata.routematic",
+                "app_store_id": "963559015"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293130980375:android:6f4e4bbe47bc79a8ace052",
+        "android_client_info": {
+          "package_name": "com.nivaata.routematic.intune"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293130980375-5t4b9lomuntqajhntn9957ev1nunmlc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzVFrSHXob_sb-NR8pDy5LkM-EBMdb8Wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293130980375-5t4b9lomuntqajhntn9957ev1nunmlc6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "293130980375-72mkjjn19mggokmotbejm6e8qnkth6m4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nivaata.routematic",
+                "app_store_id": "963559015"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293130980375:android:aad488a398a84fa4",
+        "android_client_info": {
+          "package_name": "com.routematic.employee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293130980375-h88oj39p9opsn7v0fj6fmuv83v8d4urq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.routematic.employee",
+            "certificate_hash": "44e454a32bd0ffb63c61d07239f313dd946e93d7"
+          }
+        },
+        {
+          "client_id": "293130980375-5t4b9lomuntqajhntn9957ev1nunmlc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzVFrSHXob_sb-NR8pDy5LkM-EBMdb8Wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293130980375-5t4b9lomuntqajhntn9957ev1nunmlc6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "293130980375-72mkjjn19mggokmotbejm6e8qnkth6m4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nivaata.routematic",
+                "app_store_id": "963559015"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

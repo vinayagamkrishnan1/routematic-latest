@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BoschAppTheme.Red" parent="BoschAppTheme">
+        <item name="boschColorHighlighted">@color/boschRed</item>
+        <item name="boschColorPrimary">@color/boschFuchsia</item>
+    </style>
+
+    <style name="BoschAppTheme.Fuchsia" parent="BoschAppTheme">
+        <item name="boschColorHighlighted">@color/boschFuchsia</item>
+        <item name="boschColorPrimary">@color/boschViolet</item>
+    </style>
+
+    <style name="BoschAppTheme.Violet" parent="BoschAppTheme">
+        <item name="boschColorHighlighted">@color/boschViolet</item>
+        <item name="boschColorPrimary">@color/boschDarkBlue</item>
+    </style>
+
+    <style name="BoschAppTheme.Light.Blue" parent="BoschAppTheme">
+        <item name="boschColorHighlighted">@color/boschLightBlue</item>
+        <item name="boschColorPrimary">@color/boschTurquoise</item>
+    </style>
+
+    <style name="BoschAppTheme.Turquoise" parent="BoschAppTheme">
+        <item name="boschColorHighlighted">@color/boschTurquoise</item>
+        <item name="boschColorPrimary">@color/boschLightGreen</item>
+    </style>
+
+    <style name="BoschAppTheme.Green" parent="BoschAppTheme">
+        <item name="boschColorHighlighted">@color/boschLightGreen</item>
+        <item name="boschColorPrimary">@color/boschDarkGreen</item>
+    </style>
+
+</resources>

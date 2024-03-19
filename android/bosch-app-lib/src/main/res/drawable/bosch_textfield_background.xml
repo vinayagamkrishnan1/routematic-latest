@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+       android:drawable="@drawable/bosch_textfield_background_validation_states"
+       android:insetBottom="@dimen/gu2"/>

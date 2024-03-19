@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bosch.app.lib.widget.BoschLabel xmlns:android="http://schemas.android.com/apk/res/android"
+                                     xmlns:app="http://schemas.android.com/apk/res-auto"
+                                     android:id="@+id/section_header"
+                                     style="@style/Widget.Bosch.Label.Standard"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:layout_margin="0dp"
+                                     android:background="@color/boschLightGrayW75"
+                                     android:gravity="center_vertical"
+                                     android:minHeight="@dimen/gu6"
+                                     android:orientation="vertical"
+                                     android:paddingLeft="@dimen/gu2"
+                                     android:paddingRight="@dimen/gu2"
+                                     android:text="Section Header"
+                                     app:priority="high"/>

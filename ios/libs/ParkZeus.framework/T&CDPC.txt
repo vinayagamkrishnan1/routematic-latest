@@ -1,0 +1,271 @@
+<header>
+    <h3>Data Protection Notice</h3>
+   
+  </header>
+<b>1. Data Protection Notice</b>
+<br/><br/>Automobility Services and Solutions Private Limited (Hereinafter "Bosch") welcomes you to our internet pages and mobile applications (together also referred to as "Online Offers"). We thank you for your interest in our company and our products.
+
+<br/><br/> <b>2. Bosch respects your privacy</b>
+<br/><br/>The protection of your privacy throughout the course of processing personal data as well as the security of all business data are important concerns to us. We process personal data that was gathered during your visit of our Online Offers confidentially and only in accordance with statutory regulations.
+<br/><br/>Data protection and information security are included in our corporate policy.
+<br/><br/><b>3. Controller</b>
+<br/><br/>Bosch is the controller responsible for the processing of your data; exceptions are outlined in this data protection notice.
+<br/><br/>Our contact details are as follows:
+<br/><br/>Park.Zeus@in.bosch.com
+<br/><br/>Automobility Services and Solutions Private Limited,
+<br/>Hosur Road,
+<br/>Adugodi,
+<br/>Bengaluru - 560030,
+<br/>Karnataka,
+<br/>India.
+<br/><br/><b>4. Collection, processing and usage of personal data
+<br/><br/>  4.1 Processed categories of data</b>
+<br/><br/>The following categories of data are processed:
+<br/><br/><b>4.1.1 For Signed In Users (Registered)</b>
+<br/><br/>    Personal data</b>
+<br/><br/>•    Employee ID, Email ID, Vehicle Details (Registration number, make and model)
+<br/><br/>•    Location data(GPS)
+<br/><br/><b>4.2 Principles</b>
+<br/><br/>Personal data consists of all information related to an identified or identifiable natural person, this includes, e.g. names, addresses, phone numbers, email addresses, contractual master data, contract accounting and payment data, which is an expression of a person\'s identity.
+<br/><br/>We collect, process and use personal data only when there is either a statutory legal basis to do so or if you have given your consent to the processing or use of personal data concerning this matter, e.g. by means of acceptance of terms of use and data collection consent or by means of registration .
+<br/><br><b>4.3 Processing purposes and legal basis</b>
+<br/><br/>We as well as the service providers commissioned by us; process your personal data for the following processing purposes:
+<br/><br/>4.3.1 Provision of these Online Offers
+<br/><br/>Legal basis: Fulfillment of contractual obligations. Additionally, digital consent will be obtained  during the first use of the bosch parking microapp for every data subject
+<br/><br/>4.3.2 Resolving service disruptions as well as for security reasons.
+<br/><br/>Legal basis: Fulfillment of our legal obligations within the scope of data security and legitimate interest in resolving service disruptions as well as in the protection of our offers.
+<br/><br/>4.3.3 Location data for facilitation of parking location
+<br/><br/>Legal basis: Consent, fulfillment of contractual obligation for usage of the parking feature
+<br/><br><b>4.4 Registration</b>
+<br/><br/>Users, who registered through Arena App and when using the Bosch Parking micro app for the first time ,  will be asked for consent. With the user consent, we collect the personal data necessary for fulfillment of the contract(e.g, Employee ID,  Current location). This will be stored in the ParkZeus database except for the location data. Vehicle registration number is collected on voluntary basis to get access to the benefits (Ex, Parking information, favorite parking space, nearby parking availability). Mandatory information is marked with an *.
+<br/><br/><b>4.5 Log files</b>
+<br/><br/>Each time you use the internet, your browser is transmitting certain information which we store in so-called log files.
+<br/><br/>We store log files to determine service disruptions and for security reasons (e.g., to investigate attack attempts) for a period of 6 months and delete them afterwards. Log files which need to be maintained for evidence purposes are excluded from deletion until the respective incident is resolved and may, on a case-by-case basis, be passed on to investigating authorities.
+<br/><br/>Log files are also used for analysis purposes (without the IP address or without the complete IP address)
+<br/><br/>In log files, the following information is saved:
+<br/><br/>•    Name of the service provider which was used to access the Online Offer;
+<br/><br/>•    Name of the files or information accessed;
+<br/><br/>•    Date and time as well as duration of recalling the data;
+<br/><br/>•    Amount of data transferred;
+<br/><br/>•    Operating system and information on the internet browser used, including add-ons installed (e.g., Flash Player);
+<br/><br/>•    http status code (e.g., "Request successful" or "File requested not found").
+<br/><br/><b>4.6 Children</b>
+<br/><br/>This Online Offer is not meant for children under 18 years of age.
+<br/><br/><b>4.7 Service providers (general)</b>
+<br/><br/>We involve external service providers with tasks such as sales and marketing services, contract management, payment handling, programming, data hosting and hotline services. We have chosen those service providers carefully and monitor them on a regular basis, especially regarding their diligent handling of and protection of the data that they store. All service providers are obliged to maintain confidentiality and to comply with the statutory provisions. Service providers may also be other Bosch group companies.
+<br/><br/><b>4.8 Duration of storage, retention periods</b>
+<br/><br/>Principally, we store your data for as long as it is necessary to render our Online Offers and connected services or for as long as we have a legitimate interest in storing the data (e.g. we might still have a legitimate interest in postal mail marketing after fulfillment of our contractual obligations). In all other cases we delete your personal data with the exception of data we are obliged to store for the fulfillment of legal obligations (e.g. due to retention periods under the tax and commercial codes we are obliged to have documents such as contracts and invoices available for a certain period of time).
+<br/><br/><b>5. Usage of Cookies</b>
+<br/><br/>In the context of our online service, cookies and tracking mechanisms may be used.
+<br/><br/>Cookies are small text files that may be stored on your device when visiting our online service.
+<br/><br/>Tracking is possible using different technologies. In particular, we process information using pixel technology and/or during log file analysis.
+<br/><br/><b>5.1 Categories </b>
+<br/><br/>We distinguish between cookies that are mandatorily required for the technical functions of the online service and such cookies and tracking mechanisms that are not mandatorily required for the technical function of the online service.
+<br/><br/>It is generally possible to use the online service without any cookies that serve non-technical purposes.
+<br/><br/><b>5.1.1 Technically required cookies</b>
+<br/><br/>By technically required cookies we mean cookies without those the technical provision of the online service cannot be ensured. These include e.g. cookies that store data to ensure smooth reproduction of video or audio footage.
+<br/><br/>Such cookies will be deleted when you leave the website /web portal which are mentioned below.
+<br/><br/>1.    Auth: Access Token will be stored for the session purpose
+<br/><br/>2.    Refresh: Refresh Token will be stored for the session purpose
+<br/><br/>3.    UserID: User identification will be stored for the better performance
+<br/><br/>4.    TokenExpTime: Token expiry time stored to validate the session
+<br/><br/>5.    cliId : Client ID technical cookie stored to validate the session
+<br/><br/>6.    cliSec: Client secrete ID technical cookie stored to validate the session
+<br/><br/><b>5.2 Management of cookies and tracking mechanisms</b>
+<br/><br/>You can manage your cookie and tracking mechanism settings in the browser and/or our privacy settings.
+<br/><br/>Note: The settings you have made refer only to the browser used in each case.
+<br/><br/><b>5.2.1 Deactivation of all cookies</b>
+<br/><br/>If you wish to deactivate all cookies, please deactivate cookies in your browser settings. Please note that this may affect the functionality of the website.
+<br/><br/><b>6. Usage of our mobile applications</b>
+<br/><br/>In addition to our Online Offers, we offer mobile applications ("Apps"), which you can download to your mobile device. Beyond the data collected on websites, we collect additional personal data through our apps that specifically result from the usage of a mobile device. This is subject to your prior consent.
+<br/><br/>Additional document: Declaration of consent
+<br/><br/><b>6.1 Processing of your location data</b>
+<br/><br/>Our offers also include so-called location based services through which we provide you with special offers that are tailored to your respective location. To offer this app function, we collect the last three GPS locations delivered by the mobile device and your IP address when you consent. We do not create a movement profile. You can deactivate this function in the respective app\'s settings or in the settings of the operating system of your mobile device or pause it temporarily without affecting the basic functionality of the app.
+<br/><br/>Prior to using location data, it must be ruled out that this is not a telecommunications service (TC service). This is necessary as TC services are subject to the special restrictions of s. 98 of the German Telecommunications Act (TKG) (Processing only for services with additional purpose and only upon separate, explicit and written consent).
+<br/><br/>Additional document: Declaration of consent
+<br/><br/>Thus, the usage of this module requires an examination by the decentralized subject matter experts group with approval by the central department responsible.
+<br/><br/><b>6.2 Google Analytics for mobile applications</b>
+<br/><br/>Google Analytics is provided by Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA ("Google"). We use Google Analytics with the additional function offered by Google to anonymize IP addresses. While doing so, Google already shortens IPs within the EU in most cases and only does so in the United States in exceptional cases, while always saving shortened IPs only.
+<br/><br/><b>6.3 Google Maps & API Services for mobile applications</b>
+<br/><br/>Google Maps is provided by Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA ("Google"). We use Google Map services as installed on your mobile phone and linked to your phone number, to display the map, display the parking spaces , searching places , latitude longitude to physical address conversion, route , distance, ETA from source and destination. The Google Maps Services are subject to applicable Google Maps Terms of Use in the version available at the time of use of Google Maps Services on your mobile phone.
+<br/><br/><b>6.4 Poppins font for Web application</b>
+<br/><br/>Poppins font is provided by Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA ("Google").
+<br/><br/>https://fonts.google.com/specimen/Poppins?query=pop#standard-styles
+<br/><br/>We use Fonts services to display the text on web browsers
+<br/><br/><b>6.5 Firebase crash analysis</b>
+<br/><br/>Bosch uses Firebase application for performing crash analysis, whenever it occurs. For performing such crash analysis, Firebase may access, process, transfer, store and reproduce certain User Data. The type of data that is collected and processed and the purposes for which it is used is detailed in the following links –
+<br/><br/>https://support.google.com/firebase/answer/6318039?hl=en
+<br/>and
+<br/>https://support.google.com/firebase/answer/6317486.
+<br/><br/>User hereby permits Firebase access and use of your User Data for the purpose of performing crash analysis.
+<br/><br/><b>6.6 App Store</b>
+<br/><br/><b>Data processing by App Store operators</b>
+<br/><br/>We do not collect data, and it is beyond our responsibility, when data, such as username, email address and individual device identifier are transferred to an app store (e.g., Google Play by Google, App Store by Apple, Galaxy Apps Store by Samsung) when downloading the respective application. We are unable to influence this data collection and further processing by the App Store as controller.
+<br/><br/><b>7. External links</b>
+<br/><br/>Our Online Offers may contain links to internet pages of third parties, in particular providers who are not related to us. Upon clicking on the link, we have no influence on the collecting, processing and use of personal data possibly transmitted by clicking on the link to the third party (such as the IP address or the URL of the site on which the link is located) as the conduct of third parties is naturally beyond our control. We do not assume responsibility for the processing of personal data by third parties.
+<br/><br/><b>8. Security</b>
+<br/><br/>Our employees and the companies providing services on our behalf, are obliged to confidentiality and to compliance with the applicable data protection laws.
+<br/><br/>We take all necessary technical and organizational measures to ensure an appropriate level of security and to protect your data that are administrated by us especially from the risks of unintended or unlawful destruction, manipulation, loss, change or unauthorized disclosure or unauthorized access. Our security measures are, pursuant to technological progress, constantly being improved.
+<br/><br/><b>9 User rights</b>
+<br/><br/>To enforce your rights, please use the details provided in the Menu > Support section. In doing so, please ensure that an unambiguous identification of your person is possible.
+<br/><br/><b>Right to information and access</b>
+<br/><br/>You have the right to obtain confirmation from us about whether or not your personal data is being processed, and, if this is the case, access to your personal data.
+<br/><br/><b>Right to correction and deletion</b>
+<br/><br/>You have the right to obtain the rectification of inaccurate personal data.  As far as statutory requirements are fulfilled, you have the right to obtain the completion or deletion of your data.
+<br/><br/>This does not apply to data which is necessary for billing or accounting purposes or which is subject to a statutory retention period. If access to such data is not required, however, its processing is restricted (see the following).
+<br/><br/><b>Restriction of processing</b>
+<br/><br/>As far as statutory requirements are fulfilled you have the right to demand for restriction of the processing of your data.
+<br/><br/><b>Data portability</b>
+<br/><br/>As far as statutory requirements are fulfilled you may request to receive data that you have provided to us in a structured, commonly used and machine-readable format or – if technically feasible –that we transfer those data to a third party.
+<br/><br/><b>Objection to data processing based on the legal basis of "legitimate interest"</b>
+<br/><br/>In addition, you have the right to object to the processing of your personal data at any time, insofar as this is based on "legitimate interest". We will then terminate the processing of your data, unless we demonstrate compelling legitimate grounds according to legal requirements which override your rights.
+<br/><br/><b>Withdrawal of consent</b>
+<br/><br/>In case you consented to the processing of your data, you have the right to revoke this consent at any time with effect for the future. The lawfulness of data processing prior to your withdrawal remains unchanged. If the user intends to withdraw his consent, the controller can be contacted through Email provided in the Controller Section.
+<br/><br/><b>10. Right to lodge complaint with supervisory authority:</b>
+<br/><br/>You have the right to lodge a complaint with a supervisory authority. You can appeal to the supervisory authority which is responsible for your place of residence or your state of residency or to the supervisory authority responsible for us. This is:
+<br/><br/>DPO.India@in.bosch.com
+<br/>Data Protection Officer Bosch India
+<br/>Post Box No 3000  Hosur Road  Adugodi
+<br/>Bengaluru, Karnataka – 560 030
+<br/>India
+<br/><br/><b>11. Changes to the Data Protection Notice</b>
+<br/><br/>We reserve the right to change our security and data protection measures. In such cases, we will amend our data protection notice accordingly. Please, therefore, notice the current version of our data protection notice, as this is subject to changes.
+<br/><br/><b>12. Contact</b>
+<br/><br/>If you wish to contact us, please find us at the address stated in the "Controller" section.
+<br/><br/>To assert your rights and to notify data protection incidents please use the following link:
+<br/><br/>https://www.bkms-system.net/bosch-dataprotection
+<br/><br/>For suggestions and complaints regarding the processing of your personal data we recommend that you contact our data protection officer:
+<br/><br/>E-Mail : DPO.india@bosch.com
+<br/><br/>Effective date: [2022.05.06]
+<br/>Document version: PZ_Data_Protection_NoticeV2.2
+
+ ]]>
+ 
+ 
+<br/><br/><header>
+    <h3>Eula data</h3>
+  </header>
+    <b> 1.    Provider and Area of Application</b>
+<br/><br/>1.1. Automobility Services and Solutions Private Limited, having its registered office at Hosur Road, Adugodi, Bengaluru, Karnataka – 560030, India (hereinafter referred to as <b>"Bosch"</b>), provides the mobile application <b>"ParkZeus"</b> (hereinafter referred to as <b>"ParkZeus"</b> or <b>"App"</b>) on the basis of these Terms of Use (<b>"Terms of Use"</b>).
+<br/><br/>1.2. These Terms of Use apply in the version valid upon the conclusion of the contract for the registration with ParkZeus and the use of ParkZeus. Downloading, installing, copying, accessing, by clicking the "accept" button, or otherwise using the App, shall imply that the User has agreed to the Terms of use of this App.
+<br/><br/><b>2. Subject matter of these Terms of Use</b>
+<br/><br/>2.1. The subject matter of these Terms of Use is the provision of ParkZeus App and ancillary services further set out in Appendix 1 hereinafter for the purpose of connecting employees of Bosch <b>("Users")</b> and parking providers <b>("Provider")</b> on a single platform ( collectively referred to as <b>"Services"</b>).
+<br/><br/>2.2. Bosch is providing parking spaces to Users. Pursuant to this, the User shall provide his data/ information to the Platform upon authentication by the Provider to obtain the parking facility service.
+<br/><br/>2.3. Bosch is entitled to have the Services performed by third parties (including affiliated group companies of Bosch acting as sub-contractors.
+<br/><br/><b>3. Provision of ParkZeus App and Storage Space</b>
+<br/><br/>3.1. In order to use ParkZeus, the User must first download and install the App on User’s mobile phone. The App is currently available for Android and iOS operating systems and can be downloaded free of charge from the respective application stores in accordance with the applicable application store terms and conditions - License Terms and Terms of Use.
+<br/><br/>3.2. In order to use the functionalities of ParkZeus, the mobile phone on which the App is installed must have a data connection to a mobile network.  The User has to ensure that mobile data communication is possible and shall bear any costs for the data transfer, which are incurred from the mobile network provider.
+<br/><br/>3.3. The User guide for enabling usage and operation of the App is available under the \'Menu > How it works\' section on the App.
+<br/><br/>3.4. User Content shall be stored and be regularly backed-up by Bosch throughout the term of this agreement. "User Content" means all data, including all text, audio, video or image files and software, which a User transfers to Bosch in connection with the use of the App. This also includes User Data, User ratings and feedback on the parking spaces.
+<br/><br/>3.5. Bosch does not warrant that ParkZeus meets the requirements of the User or that ParkZeus is continuously available and/or error-free. Bosch assumes no warranty or maintenance for ParkZeus. Bosch does not warrant that the access to and the use of ParkZeus is not interrupted or affected by downtimes, maintenance activities, developments, updates and upgrades or malfunctions.
+<br/><br/><b>4. Registration, ParkZeus Account</b>
+<br/><br/>4.1. The User shall be automatically get registered on the Platform in case of accessing the parking services for the first time. The User logins into Parkzeus app through Bosch Arena/Connect app SSO to be able to use Parkzeus. This registration is free of charge. For the registration and further process, the App shall collect the User’s credentials/ data/ information (including but not limited to vehicle details, employee ID and email addresses <b>("User Data")</b> which will be authenticated by the Provider.
+<br/><br/>4.2. Bosch is permitted to send the User contractual declarations concerning the relationship, with binding effect for the User, to the official email ID saved during the registration process.
+<br/><br/>4.3. By submitting the User Data, the User is making Bosch an offer to conclude a contract on the basis of these Terms of Use. After sending the User Data, the same shall be verified by Bosch for completeness and plausibility through authentications. If the User Data is correct, Bosch will accept the offer of the User to conclude a binding contract ("User Relationship"), by activating the requested Parkzeus account. After the activation of the Parkzeus account, the User is permitted to use the App in accordance with these Terms of Use. Authentication of User Data is done by Bosch based on the information provided by User. Bosch does not warrant that its authentication process is accurate, reliable or complete. If at any stage, during or after the registration of User account, Bosch is of the opinion or Bosch finds out that the User Data provided to Bosch is incorrect, false or misleading, then Bosch may, at its sole discretion, de-register or suspend the User account and terminate all operations with the User.
+<br/><br/>4.4. Bosch reserves the right to reject a submission and refuse to open a Parkzeus Account for a User if Bosch has a reasonable basis to believe that the User will not comply with these Terms of Use.
+<br/><br/>4.5. Each User may register with Parkzeus only once. Multiple registrations can lead to the suspension of the User of Parkzeus. The Parkzeus Account is non-transferable.
+<br/><br/>4.6. Bosch is permitted to send the User contractual declarations concerning the User Relationship, with binding effect for the User, to the email id saved during the registration process.
+<br/><br/><b>5. Obligations of the User</b>
+<br/><br/>5.1. The User is obliged to keep all data, including but not limited to the phone number provided by him to Bosch for registration and use of the Parkzeus Account, complete and up to date at all times.
+<br/><br/>5.2. The User shall undertake all necessary cooperative measures to undertake the obligations set out in these Terms of Use and any other agreement that User may enter with Bosch. In particular, the User is obliged to keep the use and access authorizations he has been allocated, confidential, to protect them from third-party access and not to disclose them to unauthorized Users. This data is to be protected by suitable, effective measures. The User shall notify Bosch immediately, if there is suspicion that the access data and/or passwords could have been disclosed to unauthorized persons.
+<br/><br/>5.3. If the User violates the aforementioned obligations, in particular by transferring access data to third parties or if Bosch has an indication of third-party use or any other misuse of the access data, or the User’s ParkZeus Account, in ParkZeus, Bosch is permitted to suspend the User\'s access temporarily or permanently in accordance with Section 11.1 or to end the User Relationship with the User with immediate effect, to delete the registration or the ParkZeus Account of the User, and to exclude the User in the future from any further use of ParkZeus. The User can be given access to ParkZeus again, once the suspicion has been eliminated or corresponding extra safety measures (such as a change of password or User data) have been taken.
+<br/><br/><b>6. Third-Party Content</b>
+<br/><br/>6.1. The Content provided on Parkzeus is partly from Bosch, and partly from other Users or other third parties. Content of Users and other third parties, is hereinafter referred to jointly as <b>"Third-Party Content"</b>. Bosch does not check the completeness, accuracy and legality of Third-Party Content, and does not adopt this Third-Party Content as its own. In particular, Bosch does not perform a check of the safety aspects associated with Third-Party Content. Consequently, Bosch assumes no responsibility or guarantee for the completeness, correctness, legality and up-to-datedness of Third-Party Content. This also applies with regard to the quality of Third-Party Content, and its suitability for a particular purpose, and also, if it concerns Third-Party Content on external linked websites, anything which could be seen as framing on the App (or parts thereof).
+<br/><br/>6.2. Notwithstanding the before mentioned provisions, Bosch will, at its own discretion, examine legitimate notices of infringements of these Terms of Use, or of any unlawfulness or inaccuracy of Third-Party Content and, where applicable, take appropriate actions. In particular, Bosch will use reasonable efforts to remove unlawful or offensive Third-Party Content, as soon as Bosch is aware of it.
+<br/><br/><b>7. User Content/ Data</b>
+<br/><br/>7.1    No right of ownership on the User Content/ User Data by Bosch is established by the transfer, uploading, transmission or publishing of User Content in connection with the use of ParkZeus. The User remains the owner of his User Content and has sole responsibility for it himself.
+<br/><br/>7.2    By submitting, uploading, sharing, publishing, transmitting, or otherwise making available User Content and User Data on or through ParkZeus, User hereby grants to Bosch and its authorized end users and/ or guests’ a fully paid, irrevocable, perpetual, royalty free, worldwide, sub-licensable, non-exclusive license and right to use User Content and User Data for the sole purpose of enabling Bosch to perform its obligations and provide its services in accordance with these Terms of Use. The right of use includes, in particular
+<br/><br/>a)    The storage of User Content and User Data on the servers of Bosch or of third parties commissioned by Bosch at home or abroad;
+<br/><br/>b)    The reproduction, modification, and publishing of User Content and User Data, in particular publicly displaying User Content and User Data via the App (or parts thereof);
+<br/><br/>c)    The transfer of User Content and User Data to affiliates and third parties associated with Bosch, on a need to know basis and strictly in compliance with the data protection regulations.
+<br/><br/>7.3. User warrants that:
+<br/><br/>a)    User has all rights and title to User Content and User Data required to grant to Bosch all rights under these Terms of Use and that User Content and User Data does not infringe or violate the intellectual property of a third party;
+<br/><br/>b)    User Content and User Data will not violate these Terms of Use or applicable law;
+<br/><br/>c)    User Content and User Data is free of viruses, worms, malware, Trojan horses or any other contaminating or destructive features.
+<br/><br/>7.4    Firebase crash analysis – Bosch uses Firebase application for performing crash analysis, whenever it occurs. For performing such crash analysis, Firebase may access, process, transfer, store and reproduce certain User Data. The type of data that is collected and processed and the purposes for which it is used is detailed in the following links - https://support.google.com/firebase/answer/6318039?hl=en and https://support.google.com/firebase/answer/6317486. User hereby permits Firebase access and use of your User Data for the purpose of performing crash analysis.
+<br/><br/>7.5    Without prejudice to Bosch\'s obligation to store User Content as per Section 3.4, the User shall create back up of User Content and User Data on a regular basis in an alternative storage medium.
+<br/><br/>7.6    Bosch may disclose User content and User Data to government authorities, to the extent such disclosure is required by law, rule, regulation or legal process or other validly issued administrative or judicial process requiring the disclosure.
+<br/><br/><b>8. Acceptable Use Policy (Netiquette)</b>
+<br/><br/>8.1 The User is obliged to observe the rights of third parties at all times when using ParkZeus. The User is responsible for all User Content that he submits and shares on ParkZeus.
+<br/><br/>8.2 The User has to ensure that User Content does not violate legal prohibitions or third-party rights (in particular name rights, personality rights, copyrights, data protection rights and trademark rights). In particular, the User is obliged not to share Content on ParkZeus, which
+<br/><br/>a)    Is pornographic, glorifies violence or endangers young people;
+<br/><br/>b)    Calls for crimes to be committed or represents instructions for doing so;
+<br/><br/>c)    Refers to political actions, in particular party meetings, demonstrations, leaflet or signature campaigns, as well as Content which depicts political symbols;
+<br/><br/>d)    Offends, slanders, harasses, threatens or damages in any other way, or is provocative or aggressive towards other Users, Bosch or third parties who are natural and/or legal persons;
+<br/><br/>e)    Is, in any other way, illegal, immoral, obscene, vulgar, disturbs the privacy of other people, is defaming or offensive, or contains untrue allegations or abusive criticism;
+<br/><br/>f)    Has been manipulated, in order to conceal the origin;
+<br/><br/>g)    Contains trade and business secrets of natural or legal persons, or other Content which the User is not permitted to distribute – for example due to non-disclosure agreements;
+<br/><br/>h)    Is suitable, according to its nature (e.g. viruses), size or reproduction (e.g. spamming) to endanger the existence or operation of the application (or parts thereof);
+<br/><br/>i)    Contains links or other connections to Content which is prohibited according to the aforementioned criteria, and/or
+<br/><br/>j)    Calls for violation of the aforementioned prohibitions.
+<br/><br/>8.3. Content which is not permitted according to the aforementioned criteria is not allowed to be sent or distributed via the messaging service integrated in ParkZeus.
+<br/><br/><b>9. Support</b>
+<br/><br/>9.1. Bosch provides email support for malfunctions which occur in association with ParkZeus and also for malfunctions and errors which occur in the App as per the SLA provided to the Providers. Support will be provided during business hours and can be sought by sending an email to Park.Zeus@in.bosch.com
+<br/><br/><b>10. Intellectual Property and license restrictions.</b>
+<br/><br/>10.1.    ParkZeus is the property of Bosch or its licensor and is protected by copyright or by other intellectual property rights. Subject to the terms and conditions stated herein, the User is granted a limited, nontransferable, non-exclusive license to use the ParkZeus App for availing the Services.
+<br/><br/>10.2.    Trademarks and logos used in connection with ParkZeus are the trademarks of Bosch and shall not be used by any other Party without the prior written consent of Bosch.
+<br/><br/>10.3.    It is not permitted to remove references and comments in ParkZeus, which refer to confidentiality, copyrights, trademarks, patent rights and other rights on intellectual property.
+<br/><br/>10.4.    With respect the license to Use the Platform as described herein, the User agree to these License Restrictions:
+<br/><br/>a)    The User will not further sub-license, rent, lease, assign, sell or distribute the App or transfer the license provided herein to the User to any other third party without the express prior written permission of Bosch.
+<br/><br/>b)    The User may not or enable others to, copy, decompile, reverse engineer, disassemble, attempt to derive the source code of the App or its algorithms, decrypt, modify, or create derivative works of the App or any services provided by the App, or any part thereof. Any attempt to do so is a violation of the rights of Bosch with regard to the App.
+<br/><br/>c)    The User shall not permit any third party to make error corrections to, or otherwise modify or adapt the App.
+<br/><br/><b>11. Suspension</b>
+<br/><br/>11.1. Bosch can suspend the access of a User to ParkZeus, temporarily or permanently, if the User breaches its obligations as set out in Section 5, or if Bosch has another legitimate interest in a suspension of this kind. A legitimate interest exists, for example, if a User repeatedly and in a significant manner violates the Terms of Use as per Section 7.3. When assessing whether and how long a User should be suspended, Bosch shall take into consideration the legitimate interests of the User.
+<br/><br/>11.2. Bosch shall send written notification to the User prior to the suspension. In legitimate individual cases (for example, if serious or repeated violations exist) Bosch can act without prior warning. When deciding about a warning, Bosch shall take into account the legitimate interests of the User.
+<br/><br/>11.3. In the event of a temporary or permanent suspension, Provider shall suspend the access rights of the User to ParkZeus, and notify the User about this via an email. In the event of a temporary suspension, Bosch shall activate the access rights after the expiry of the notified suspension period. Access rights which are permanently blocked cannot be restored.
+<br/><br/><b>12. Warranty, Liability</b>
+<br/><br/>12.1. Bosch does not assume any warranty for material defects and/or defects of title, except in cases in which Bosch fraudulently concealed the respective material defect and/or defect of title.
+<br/><br/>12.2. Bosch does not assume any liability for damages resulting from the use of the App, except in case of gross negligence or intent and also does not assume any liability for damages under any circumstance arising out of using Emergency Support option by User. The User/ Provider agree to choose voluntarily the emergency services via the Emergency Support option and acknowledge the risks involved and agree that Bosch shall be free of liability in case the necessary aid has not been adequately received by the User after opting  emergency services.
+<br/><br/>12.3. To the maximum extent permitted by law, in no event shall Bosch be liable for any direct, indirect, incidental, special, indirect or consequential damages whatsoever, including, without limitation, damages for loss of profits, corruption or loss of data, failure to transmit or receive any data, business interruption or any other commercial damages or losses, arising out of or related to your use of or inability to use the App and/or the Services, however caused, regardless of the theory of liability (contract, tort or otherwise) and even if Bosch has been advised of the possibility of such damages.
+<br/><br/>12.4. The foregoing limitations of liability shall also apply in the event of fault by a person engaged by Bosch in the performance of its obligations and to the personal liability of employees, representatives and corporate bodies of Bosch.
+<br/><br/><b>13.     Term, Termination</b>
+<br/><br/>13.1. The User Relationship commences with the date of Registration and will remain in effect until terminated by Bosch or by the User.
+<br/><br/>13.2. Termination for Convenience
+<br/><br/>a)    Bosch may terminate these Terms of Use for any reason or no reason at any time, by providing three (3) months’ notice effective at the calendar month-end.
+<br/><br/>13.3.     Each Party has the right to terminate these Terms of Use for cause and without notice. Cause shall be considered evident when one Party breaches a material term of these Terms of Use, including but not limited to instances wherein the User
+<br/><br/>a)    Submits incorrect or untruthful information to Bosch during Registration of the ParkZeus Account or at any time subsequent to Registration;
+<br/><br/>b)    Utilizes ParkZeus outside the scope of these Terms of Use and remains in breach after the end of a reasonable cure period following a warning notification by Bosch;
+<br/><br/>c)    Breaches its obligations pursuant to Section 5 or as per Section 7.3.
+<br/><br/>13.4 Upon the effective date of termination, User’s right to use ParkZeus shall automatically terminate and ParkZeus will no longer be accessible by User.
+<br/><br/>13.5 Termination can be by way of uninstalling the ParkZeus App or request for deletion of data sent by email to Park.Zeus@in.bosch.com
+<br/><br/><b>14. Data Privacy</b>
+<br/><br/>Bosch processes personal data in accordance with the ParkZeus Data Protection Policy available in (Menu > Legal > Data Protection Notice).
+<br/><br/><b>15. Changes to the App and the Terms of Use</b>
+<br/><br/>15.1. Bosch reserves the right to modify ParkZeus at any time in its sole discretion, even within the existing User Relationship, if this is necessary to meet technical requirements, change in laws or regulations or with regard to further developments, provided that the changes are reasonable for the User, taking into account the interests of Bosch.
+<br/><br/>15.2. Bosch reserves the right, within the bounds of reasonableness and taking into account the legitimate User interest, to change the Terms of Use, if this is necessary to meet the technical requirements of connecting networks, devices or computers, change in laws or regulations or with regard to further developments, however the essential characteristics are retained. Changes are only made if the interest of Bosch in the change prevails. User shall be notified of changes via an in-app update appearing as a push message, within a reasonable period of time, but no later than thirty (30) calendar days, before the planned effective date of the changes, especially in case of any modifications involving additional collection of User Data or change in purpose of usage, a restriction on the usability of data generated till date or other disadvantages or additional charges (e.g. adaptation expenses) etc. User shall be advised of its existing right to object and/or terminate and of the consequences of the respective change in the change notification. If User does not object within thirty (30) days of receipt of the notification after expiry of the period for objection, then the changes shall be deemed to have been effectively agreed as from the expiry date of the time limit. In the event of an objection, the contractual relationship shall be continued subject to the conditions applying hitherto. If an objection is raised, Bosch is entitled to terminate the User Relationship subject to a one (1) month notice period.
+<br/><br/>15.3. Editorial changes to the Terms of Use, i.e. changes which do not affect the User Relationship such as correcting typing errors, will be made without notifying the User.
+<br/><br/><b>16. Applicable law and place of jurisdiction</b>
+<br/><br/>16.1. The contractual relationships between the Parties shall be governed by the laws of India.
+<br/><br/>16.2. The exclusive place of jurisdiction for any legal disputes arising from or in connection with these Terms of Use shall be Bangalore, India.
+<br/><br/><b>17. Miscellaneous</b>
+<br/><br/>17.1. ParkZeus does not guarantee that the road traffic conditions are determined with 100% accuracy.
+<br/><br/>17.2. This App is a drive assist system, drivers are cautioned to use it without getting distracted.
+<br/><br/>17.3. Force Majeure: Operational disruptions caused by force majeure or other unavoidable events beyond
+<br/><br/>Bosch\'s control,
+<br/><br/>a)    which could not be averted with reasonable effort,
+<br/><br/>b)    which could not have been foreseen even when exercising with extreme care, and
+<br/><br/>c)    which make Bosch\'s obligations under these Terms of Use considerably more difficult or completely or partially impossible,
+<br/><br/>such as strikes, lockouts, exceptional weather conditions, operational or traffic disruptions and transport obstructions, epidemics discharge Bosch from its obligations under these Terms of Use for the duration of such an event.
+<br/><br/>17.4. Contractual declarations and notifications to be given by the User after execution of an agreement (such as setting of deadlines, notification of defects, and declaration of withdrawal or reduction) must be provided in text form (e.g. email, letter) to be effective.
+<br/><br/>17.5. User may not assign any or all portion of its obligations without the prior written consent of Bosch, not to be unreasonably withheld.
+<br/><br/>17.6. Should any provision of these Terms of Use be or become invalid or unenforceable, this shall, however, not affect the remaining provisions.
+<br/><br/>17.7.    Grievance Redressal mechanism: In accordance to Information Technology Act 2000 and rules made thereunder and other applicable laws, the name and contact details of the grievance officer are provided below:
+<br/><br/>DPO.India@in.bosch.com
+<br/>Data Protection Officer Bosch India
+<br/>Post Box No 3000  Hosur Road  Adugodi
+<br/>Bengaluru, Karnataka – 560 030
+<br/>India
+<br/><br/>To assert your rights and to notify data protection incidents please use the following link:
+ <br/>https://www.bkms-system.net/bosch-dataprotection
+<br/><br/><b>18. Legal Notice</b>
+<br/><br/><b>Copyright</b>
+<br/><br/>All rights reserved. All the content on this App (especially text, images, graphics, sound, animations, and videos) and the positioning thereof in the App is subject to copyright protection and to other applicable laws. Without the consent of the respective rights owner, this content may not be copied, disseminated, modified, or made accessible to third parties for commercial purposes.
+<br/><br/><b>Trademarks</b>
+<br/><br/>Unless otherwise indicated, the trademarks used in our App is the intellectual property of Automobility Services and Solutions Private Limited, India and/or Robert Bosch GmbH, Germany. This applies in particular to Bosch brands, nameplates, company logos, and emblems. The brands and design elements used on our pages are the intellectual property of Automobility Services and Solutions Private Limited, India and/or Robert Bosch GmbH, Germany.
+<br/><br/><b>Disclaimer</b>
+<br/><br/>This App is compiled with the utmost care. Nonetheless, the accuracy or correctness of the information stated in the App pages cannot be guaranteed. Bosch shall not be liable for any loss or damage resulting directly or indirectly from accessing this App, unless caused intentionally or in gross negligence by Bosch.
+<br/><br/><b>No license</b>
+<br/><br/>No license to use the intellectual property (in particular the patents, trademarks, and copyrights) of companies in the Bosch Group (Bosch) or of third parties is granted by way of accessing this App.
+<br/><br/><b>Automobility Services and Solutions Private Limited</b>
+
+<br/><br/><br/><b>Appendix 1</b> <br/><br/>Provider shall, in addition to the providing parking lots, provide the following services- <br/><br/><b>(a)   "Emergency Support"</b> <br/><br/>Provider shall provide emergency services such as fire, medical etc. in the parking lots.  The App will display contact details of the Bosch emergency support team through which Users can contact for support. This support is provided on the parking premise only. <br/><br/><b>(b)   Vehicle Breakdown Support</b> <br/><br/>Provider shall provide services such as air filling, flat tyre repair and other vehicle repair support.  The App will display contact details of Bosch service team through which Users can contact breakdown support. This support is provided on the parking premise only. <br/><br/><b>(c)   Overnight Parking</b> <br/><br/>Users may raise an overnight parking request for parking space. Users will be required to fill additional details in the App and raise a request. Provider shall have the right to approve or reject the request raised by a User at its sole discretion. Users will also have the option to cancel the request manually. <br/><br/><b>(d)   Parking occupancy trends:</b> <br/><br/>Users will be permitted to look for the parking occupancy trends for a particular day. For instance, if a User wants to know availability trends on Monday, he/she can go to parking details and select a day to check the trends chart. ]]>     </item> </resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bosch.app.lib.widget.BoschGalleryItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/gu"
+    android:adjustViewBounds="true"
+    android:background="@color/boschLightGray"
+    android:gravity="center"
+    android:minHeight="@dimen/gu22"
+    android:minWidth="@dimen/gu22">
+
+    <com.bosch.app.lib.widget.BoschImageView
+        android:id="@+id/gallery_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:id="@+id/gallery_title_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginEnd="@dimen/gu2"
+        android:background="@color/boschWhite"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/gu"
+        android:paddingLeft="@dimen/gu1.5"
+        android:paddingRight="@dimen/gu1.5"
+        android:paddingTop="@dimen/gu0.75">
+
+        <com.bosch.app.lib.widget.BoschLabel
+            android:id="@+id/gallery_title"
+            style="@style/Widget.Bosch.Label.Standard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/gu0.5"
+            android:text="Extra Long Headline"/>
+
+        <com.bosch.app.lib.widget.BoschLabel
+            android:id="@+id/gallery_subtitle"
+            style="@style/Widget.Bosch.Label.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:maxLines="1"
+            android:text="Subline"/>
+
+    </LinearLayout>
+
+</com.bosch.app.lib.widget.BoschGalleryItemLayout>

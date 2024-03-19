@@ -1,0 +1,262 @@
+<resources>
+    //colors for styles
+    <attr name="boschColorPrimary" format="color"/>
+    <attr name="boschColorHighlighted" format="color"/>
+    <attr name="boschColorInverted" format="color"/>
+    <attr name="boschColorPrimaryDisabled" format="color"/>
+    <attr name="boschColorInvertedDisabled" format="color"/>
+    <attr name="hintTextColor" format="color"/>
+    <attr name="endIconTint" format="color"/>
+<!--    <attr name="endIconDrawable" format="integer"/>-->
+
+    //Bosch Button
+    <declare-styleable name="BoschButton">
+        <attr name="iconDrawable"/>
+        <attr name="boschIcon"/>
+    </declare-styleable>
+
+    //Bosch ImageView
+    <declare-styleable name="BoschImageView">
+        <attr name="iconDrawable"/>
+        <attr name="boschIcon"/>
+        <attr name="color" format="color"/>
+    </declare-styleable>
+
+    //Bosch Slider
+    <declare-styleable name="BoschSlider">
+        <attr name="vertical" format="boolean"/>
+        <attr name="showLabel" format="boolean"/>
+        <attr name="enabled"/>
+    </declare-styleable>
+
+    <!-- Bosch Label -->
+    <declare-styleable name="BoschLabel">
+        <attr name="priority" format="enum">
+            <enum name="low" value="0"/>
+            <enum name="high" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- Bosch Dropdown -->
+    <declare-styleable name="BoschDropdown">
+        <attr name="items" format="reference" />
+        <attr name="label"/>
+        <attr name="enabled"/>
+    </declare-styleable>
+
+    <!-- Bosch TextField -->
+    <declare-styleable name="BoschTextField">
+        <attr name="label"/>
+    </declare-styleable>
+
+    <!-- Bosch Value Modificator -->
+    <declare-styleable name="BoschValueModificator">
+        <attr name="label"/>
+        <attr name="steps" format="float"/>
+        <attr name="minValue" format="float"/>
+        <attr name="maxValue" format="float"/>
+        <attr name="defaultValue" format="float"/>
+        <attr name="decimal" format="boolean"/>
+        <attr name="enabled"/>
+    </declare-styleable>
+
+    <!-- Bosch Slide in Menu -->
+    <declare-styleable name="BoschSideNavigation">
+        <attr name="boschStyle" format="enum">
+            <enum name="Light" value="0"/>
+            <enum name="Dark" value="1"/>
+            <enum name="SolidFuchsia" value="2"/>
+            <enum name="SolidLightgreen" value="3"/>
+            <enum name="SolidDarkgreen" value="4"/>
+            <enum name="SolidTurquoise" value="5"/>
+            <enum name="SolidDarkblue" value="6"/>
+            <enum name="SolidViolet" value="7"/>
+            <enum name="SolidLightblue" value="8"/>
+            <enum name="GradientFuchsiaViolet" value="9"/>
+            <enum name="GradientVioletDarkblue" value="10"/>
+            <enum name="GradientDarkblueLightblue" value="11"/>
+            <enum name="GradientLightblueTurquoise" value="12"/>
+            <enum name="GradientTurquoiseLightgreen" value="13"/>
+            <enum name="GradientLightgreenDarkgreen" value="14"/>
+        </attr>
+        <attr name="title" format="string"/>
+        <attr name="subTitle" format="string"/>
+    </declare-styleable>
+
+    <!-- Bosch Progress -->
+    <declare-styleable name="BoschProgressIndicator">
+        <attr name="indeterminate" format="boolean"/>
+    </declare-styleable>
+
+    <!-- Bosch Gallery -->
+    <declare-styleable name="BoschGalleryView">
+        <attr name="tileSize" format="enum">
+            <enum name="small" value="0"/>
+            <enum name="large" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    //Custom Bosch Attributes
+    <attr name="label" format="string"/>
+    <attr name="enabled" format="boolean"/>
+
+    <attr name="iconDrawable" format="reference"/>
+    //Bosch Icon Drawable Enums
+    <attr name="boschIcon" format="enum">
+        <enum name="bosch_ic_abort_frame" value="0"/>
+        <enum name="bosch_ic_add" value="1"/>
+        <enum name="bosch_ic_address_consumer_data" value="2"/>
+        <enum name="bosch_ic_alert_error" value="3"/>
+        <enum name="bosch_ic_alert_error_filled" value="4"/>
+        <enum name="bosch_ic_alert_success" value="5"/>
+        <enum name="bosch_ic_alert_success_filled" value="6"/>
+        <enum name="bosch_ic_alert_warning" value="7"/>
+        <enum name="bosch_ic_alert_warning_filled" value="8"/>
+        <enum name="bosch_ic_anchor" value="9"/>
+        <enum name="bosch_ic_apas" value="10"/>
+        <enum name="bosch_ic_asiapacific_frame" value="11"/>
+        <enum name="bosch_ic_back_left" value="12"/>
+        <enum name="bosch_ic_bookmark" value="13"/>
+        <enum name="bosch_ic_bookmark_add" value="14"/>
+        <enum name="bosch_ic_bookmark_delete" value="15"/>
+        <enum name="bosch_ic_building" value="16"/>
+        <enum name="bosch_ic_calendar" value="17"/>
+        <enum name="bosch_ic_calendar_add" value="18"/>
+        <enum name="bosch_ic_calendar_settings" value="19"/>
+        <enum name="bosch_ic_call" value="20"/>
+        <enum name="bosch_ic_call_wifi" value="21"/>
+        <enum name="bosch_ic_car" value="22"/>
+        <enum name="bosch_ic_cash_frame" value="23"/>
+        <enum name="bosch_ic_checkmark" value="24"/>
+        <enum name="bosch_ic_checkmark_frame" value="25"/>
+        <enum name="bosch_ic_clock" value="26"/>
+        <enum name="bosch_ic_close" value="27"/>
+        <enum name="bosch_ic_cloud" value="28"/>
+        <enum name="bosch_ic_colors" value="29"/>
+        <enum name="bosch_ic_compare" value="30"/>
+        <enum name="bosch_ic_configuration" value="31"/>
+        <enum name="bosch_ic_confirmation" value="32"/>
+        <enum name="bosch_ic_consumer_goods" value="33"/>
+        <enum name="bosch_ic_copyright_frame" value="34"/>
+        <enum name="bosch_ic_customerservice" value="35"/>
+        <enum name="bosch_ic_dealer_details" value="36"/>
+        <enum name="bosch_ic_delete" value="37"/>
+        <enum name="bosch_ic_delivery" value="38"/>
+        <enum name="bosch_ic_devices" value="39"/>
+        <enum name="bosch_ic_document" value="40"/>
+        <enum name="bosch_ic_document_delete" value="41"/>
+        <enum name="bosch_ic_dome" value="42"/>
+        <enum name="bosch_ic_down" value="43"/>
+        <enum name="bosch_ic_download_frame" value="44"/>
+        <enum name="bosch_ic_dragdrop" value="45"/>
+        <enum name="bosch_ic_edit" value="46"/>
+        <enum name="bosch_ic_europe_frame" value="47"/>
+        <enum name="bosch_ic_externallink" value="48"/>
+        <enum name="bosch_ic_facebook_frame" value="49"/>
+        <enum name="bosch_ic_folder" value="50"/>
+        <enum name="bosch_ic_forward_right" value="51"/>
+        <enum name="bosch_ic_glossary" value="52"/>
+        <enum name="bosch_ic_googleplus_frame" value="53"/>
+        <enum name="bosch_ic_grid_view" value="54"/>
+        <enum name="bosch_ic_home" value="55"/>
+        <enum name="bosch_ic_imagery" value="56"/>
+        <enum name="bosch_ic_industry" value="57"/>
+        <enum name="bosch_ic_info_i" value="58"/>
+        <enum name="bosch_ic_instagram_frame" value="59"/>
+        <enum name="bosch_ic_keyboard" value="60"/>
+        <enum name="bosch_ic_label" value="61"/>
+        <enum name="bosch_ic_layout" value="62"/>
+        <enum name="bosch_ic_less_minimize" value="63"/>
+        <enum name="bosch_ic_lightbulb" value="64"/>
+        <enum name="bosch_ic_lightbulb_off" value="65"/>
+        <enum name="bosch_ic_lineapp_frame" value="66"/>
+        <enum name="bosch_ic_linkedin_frame" value="67"/>
+        <enum name="bosch_ic_list_view" value="68"/>
+        <enum name="bosch_ic_list_view_mobile" value="69"/>
+        <enum name="bosch_ic_livechat" value="70"/>
+        <enum name="bosch_ic_locator" value="71"/>
+        <enum name="bosch_ic_logout" value="72"/>
+        <enum name="bosch_ic_maximize" value="73"/>
+        <enum name="bosch_ic_minimize" value="74"/>
+        <enum name="bosch_ic_more_maximize" value="75"/>
+        <enum name="bosch_ic_mouse" value="76"/>
+        <enum name="bosch_ic_mouse_left" value="76"/>
+        <enum name="bosch_ic_mouse_right" value="78"/>
+        <enum name="bosch_ic_my_brand_frame" value="79"/>
+        <enum name="bosch_ic_my_product" value="80"/>
+        <enum name="bosch_ic_newsletter" value="81"/>
+        <enum name="bosch_ic_northamerica_frame" value="82"/>
+        <enum name="bosch_ic_notification" value="83"/>
+        <enum name="bosch_ic_options" value="84"/>
+        <enum name="bosch_ic_page_add" value="85"/>
+        <enum name="bosch_ic_paperclip" value="86"/>
+        <enum name="bosch_ic_pause" value="87"/>
+        <enum name="bosch_ic_payment" value="88"/>
+        <enum name="bosch_ic_pdf" value="89"/>
+        <enum name="bosch_ic_people" value="90"/>
+        <enum name="bosch_ic_pinterest_frame" value="91"/>
+        <enum name="bosch_ic_play" value="92"/>
+        <enum name="bosch_ic_postal_code" value="93"/>
+        <enum name="bosch_ic_print" value="94"/>
+        <enum name="bosch_ic_problem_frame" value="95"/>
+        <enum name="bosch_ic_promotion_frame" value="96"/>
+        <enum name="bosch_ic_question" value="97"/>
+        <enum name="bosch_ic_question_frame" value="98"/>
+        <enum name="bosch_ic_reference" value="99"/>
+        <enum name="bosch_ic_refresh" value="100"/>
+        <enum name="bosch_ic_registration" value="101"/>
+        <enum name="bosch_ic_reset" value="102"/>
+        <enum name="bosch_ic_rocket" value="103"/>
+        <enum name="bosch_ic_rotation" value="104"/>
+        <enum name="bosch_ic_route" value="105"/>
+        <enum name="bosch_ic_search" value="106"/>
+        <enum name="bosch_ic_settings" value="107"/>
+        <enum name="bosch_ic_share" value="108"/>
+        <enum name="bosch_ic_share_frame" value="109"/>
+        <enum name="bosch_ic_shopping_cart" value="110"/>
+        <enum name="bosch_ic_shoppingcart" value="111"/>
+        <enum name="bosch_ic_shoppingcart_add" value="111"/>
+        <enum name="bosch_ic_shoppingcart_switch" value="112"/>
+        <enum name="bosch_ic_signpost" value="113"/>
+        <enum name="bosch_ic_snapchat_frame" value="114"/>
+        <enum name="bosch_ic_southamerica_frame" value="115"/>
+        <enum name="bosch_ic_start_play_frame" value="116"/>
+        <enum name="bosch_ic_subtitles" value="117"/>
+        <enum name="bosch_ic_subtitles_off" value="118"/>
+        <enum name="bosch_ic_summary" value="119"/>
+        <enum name="bosch_ic_surveillance" value="120"/>
+        <enum name="bosch_ic_switch" value="121"/>
+        <enum name="bosch_ic_tablet" value="122"/>
+        <enum name="bosch_ic_team" value="123"/>
+        <enum name="bosch_ic_transscript" value="124"/>
+        <enum name="bosch_ic_transscript_off" value="125"/>
+        <enum name="bosch_ic_transscript_on" value="126"/>
+        <enum name="bosch_ic_tumblr_frame" value="127"/>
+        <enum name="bosch_ic_twitter_frame" value="128"/>
+        <enum name="bosch_ic_typography" value="129"/>
+        <enum name="bosch_ic_up" value="130"/>
+        <enum name="bosch_ic_up_down" value="131"/>
+        <enum name="bosch_ic_user" value="132"/>
+        <enum name="bosch_ic_vimeo_frame" value="133"/>
+        <enum name="bosch_ic_volume_disabled" value="134"/>
+        <enum name="bosch_ic_volume_high" value="135"/>
+        <enum name="bosch_ic_volume_low" value="136"/>
+        <enum name="bosch_ic_volume_off" value="137"/>
+        <enum name="bosch_ic_watch_off" value="138"/>
+        <enum name="bosch_ic_watch_on" value="139"/>
+        <enum name="bosch_ic_wechat_frame" value="140"/>
+        <enum name="bosch_ic_weibo_frame" value="141"/>
+        <enum name="bosch_ic_welcome" value="142"/>
+        <enum name="bosch_ic_whatsapp_frame" value="143"/>
+        <enum name="bosch_ic_wishlist" value="144"/>
+        <enum name="bosch_ic_world_frame" value="145"/>
+        <enum name="bosch_ic_wrench" value="146"/>
+        <enum name="bosch_ic_xing_frame" value="147"/>
+        <enum name="bosch_ic_youku_frame" value="148"/>
+        <enum name="bosch_ic_youtube_frame" value="149"/>
+        <enum name="bosch_ic_zoomin" value="150"/>
+        <enum name="bosch_ic_zoomout" value="151"/>
+        <enum name="bosch_ic_list_arrow" value="152"/>
+        <enum name="bosch_ic_standby" value="153"/>
+    </attr>
+</resources>

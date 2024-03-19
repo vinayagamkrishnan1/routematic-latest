@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:id="@+id/popover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/gu1.25"
+        android:background="@drawable/bosch_popover_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.bosch.app.lib.widget.BoschLabel
+                android:id="@+id/popover_title"
+                style="@style/Widget.Bosch.Label.Headline"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/gu2"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:text="Title"/>
+
+            <com.bosch.app.lib.widget.BoschImageView
+                android:id="@+id/popover_close"
+                android:layout_width="@dimen/gu6"
+                android:layout_height="@dimen/gu6"
+                android:scaleType="centerInside"
+                android:src="@drawable/bosch_ic_close"
+                android:tint="@color/bosch_popover_close"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/popover_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/gu2"
+            android:paddingLeft="@dimen/gu2"
+            android:paddingRight="@dimen/gu2"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/arrow_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0.5dp"
+        android:layout_marginStart="40dip"
+        android:src="@drawable/bosch_popover_arrow_down"/>
+
+    <ImageView
+        android:id="@+id/arrow_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="0.5dp"
+        android:layout_marginTop="40dip"
+        android:src="@drawable/bosch_popover_arrow_left"/>
+
+    <ImageView
+        android:id="@+id/arrow_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginStart="40dip"
+        android:layout_marginTop="0.5dp"
+        android:src="@drawable/bosch_popover_arrow_up"/>
+
+    <ImageView
+        android:id="@+id/arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="0.5dp"
+        android:layout_marginTop="40dip"
+        android:src="@drawable/bosch_popover_arrow_right"/>
+
+</FrameLayout>

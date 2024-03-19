@@ -1,0 +1,11 @@
+framework module ParkZeus {
+  umbrella header "ParkZeus.h"
+
+  export *
+  module * { export * }
+}
+
+module ParkZeus.Swift {
+  header "ParkZeus-Swift.h"
+  requires objc
+}

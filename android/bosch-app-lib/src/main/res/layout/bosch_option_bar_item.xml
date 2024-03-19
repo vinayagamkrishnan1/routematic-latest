@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/gu8"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:paddingEnd="@dimen/gu2"
+              android:paddingStart="@dimen/gu1.5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/gu0.25">
+
+        <com.bosch.app.lib.widget.BoschImageView
+            android:id="@+id/optionIcon"
+            style="@style/Widget.Bosch.OptionBar.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bosch_ic_home"
+            android:tint="@color/bosch_option_bar_text"/>
+
+        <com.bosch.app.lib.widget.BoschLabel
+            android:id="@+id/optionText"
+            style="@style/Widget.Bosch.OptionBar.Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home tests"
+            android:textColor="@color/bosch_option_bar_text"/>
+
+    </LinearLayout>
+
+    <com.bosch.app.lib.widget.BoschDivider
+        android:id="@+id/optionLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bosch_option_bar_line"
+        android:paddingBottom="@dimen/gu"/>
+</LinearLayout>

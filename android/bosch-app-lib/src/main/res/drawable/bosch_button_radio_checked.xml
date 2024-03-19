@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/gu1.5"
+        android:left="@dimen/gu2"
+        android:right="@dimen/gu2"
+        android:top="@dimen/gu1.5">
+        <shape
+            android:shape="oval">
+
+            <solid
+                android:color="@color/bosch_button_radio_checked"/>
+
+            <size
+                android:width="@dimen/gu3"
+                android:height="@dimen/gu3"/>
+            <padding
+                android:bottom="@dimen/gu1.5"
+                android:left="@dimen/gu2"
+                android:right="@dimen/gu2"
+                android:top="@dimen/gu1.5"/>
+        </shape>
+    </item>
+    <item>
+        <shape
+            android:shape="oval">
+            <stroke
+                android:width="@dimen/gu0.75"
+                android:color="@color/bosch_button_radio_checked_pressed"/>
+
+            <size
+                android:width="@dimen/gu3"
+                android:height="@dimen/gu3"/>
+            <padding
+                android:bottom="@dimen/gu1.5"
+                android:left="@dimen/gu2"
+                android:right="@dimen/gu2"
+                android:top="@dimen/gu1.5"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,47 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 31
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        renderscriptTargetApi 21
+        renderscriptSupportModeEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+publishing {
+    if (project.hasProperty('DEPLOY_URL')) {
+        repositories.mavenDeployer {
+            repository(url: DEPLOY_URL) {
+                authentication(userName: DEPLOY_USER_NAME, password: DEPLOY_PASSWORD)
+                pom.groupId = "com.bosch.app.lib"
+                pom.artifactId = "bosch-app-lib"
+                pom.version = '0.9.4-SNAPSHOT'
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0-alpha07'
+
+    //implementation 'com.google.android.material:material:1.0.0'
+}
+
+repositories {
+    google()
+}

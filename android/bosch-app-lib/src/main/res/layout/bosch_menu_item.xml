@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/gu6"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+
+    <com.bosch.app.lib.widget.BoschImageView
+        android:id="@+id/menu_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/gu1.5"
+        android:minHeight="@dimen/gu3"
+        android:minWidth="@dimen/gu3"
+        android:tint="@color/bosch_list_item"/>
+
+    <com.bosch.app.lib.widget.BoschLabel
+        android:id="@+id/menu_text"
+        style="@style/Widget.Bosch.Label.Standard"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/gu6"
+        android:paddingLeft="@dimen/gu2"
+        android:paddingRight="@dimen/gu2"
+        android:textColor="@color/bosch_list_item"/>
+
+    <com.bosch.app.lib.widget.BoschImageView
+        android:id="@+id/menu_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/gu1.5"
+        android:src="@drawable/bosch_ic_forward_right"
+        android:tint="@color/bosch_list_item"
+        android:visibility="gone"/>
+
+</LinearLayout>

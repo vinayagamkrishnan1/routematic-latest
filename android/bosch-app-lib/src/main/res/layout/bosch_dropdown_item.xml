@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bosch.app.lib.widget.BoschLabel xmlns:android="http://schemas.android.com/apk/res/android"
+                                     xmlns:app="http://schemas.android.com/apk/res-auto"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="@dimen/gu8"
+                                     android:background="@drawable/bosch_dropdown_item_background"
+                                     android:fontFamily="@font/bosch_sans_regular"
+                                     android:gravity="center_vertical"
+                                     android:paddingLeft="@dimen/gu2"
+                                     android:paddingRight="@dimen/gu2"
+                                     android:text="item"
+                                     android:textColor="@color/bosch_dropdown_item_text"
+                                     android:textSize="@dimen/text_gu1.5"
+                                     app:fontFamily="@font/bosch_sans_regular"/>

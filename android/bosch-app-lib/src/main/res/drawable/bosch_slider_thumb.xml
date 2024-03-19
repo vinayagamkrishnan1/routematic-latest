@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:dither="true" android:shape="rectangle" android:useLevel="false" android:visible="true">
+            <solid android:color="@color/boschLightGray"/>
+            <corners android:radius="@dimen/gu3"/>
+            <size android:width="@dimen/gu3" android:height="@dimen/gu3"/>
+            <padding android:left="@dimen/gu1.5"
+                     android:right="@dimen/gu1.5"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:dither="true" android:shape="rectangle" android:useLevel="false" android:visible="true">
+            <solid android:color="@color/boschLightBlue"/>
+            <corners android:radius="@dimen/gu3"/>
+            <size android:width="@dimen/gu3" android:height="@dimen/gu3"/>
+            <padding android:left="@dimen/gu1.5"
+                     android:right="@dimen/gu1.5"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:dither="true" android:shape="rectangle" android:useLevel="false" android:visible="true">
+            <solid android:color="@color/boschDarkBlue"/>
+            <corners android:radius="@dimen/gu3"/>
+            <size android:width="@dimen/gu3" android:height="@dimen/gu3"/>
+            <padding android:left="@dimen/gu1.5"
+                     android:right="@dimen/gu1.5"/>
+        </shape>
+    </item>
+</selector>

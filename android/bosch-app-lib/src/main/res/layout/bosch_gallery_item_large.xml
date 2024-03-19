@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bosch.app.lib.widget.BoschGalleryItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/gu"
+    android:adjustViewBounds="true"
+    android:background="@color/boschLightGray"
+    android:gravity="center"
+    android:minHeight="@dimen/gu32"
+    android:minWidth="@dimen/gu32">
+
+    <com.bosch.app.lib.widget.BoschImageView
+        android:id="@+id/gallery_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:id="@+id/gallery_title_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginEnd="@dimen/gu4"
+        android:background="@color/boschWhite"
+        android:orientation="vertical"
+        android:padding="@dimen/gu2">
+
+        <com.bosch.app.lib.widget.BoschLabel
+            android:id="@+id/gallery_title"
+            style="@style/Widget.Bosch.Label.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/gu"
+            android:text="Headline"/>
+
+        <com.bosch.app.lib.widget.BoschLabel
+            android:id="@+id/gallery_subtitle"
+            style="@style/Widget.Bosch.Label.Standard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:maxLines="1"
+            android:text="Subline"/>
+
+    </LinearLayout>
+
+</com.bosch.app.lib.widget.BoschGalleryItemLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <layer-list>
+            <item
+                android:bottom="@dimen/gu1.5"
+                android:left="@dimen/gu2"
+                android:right="@dimen/gu2"
+                android:top="@dimen/gu1.5">
+                <shape android:shape="rectangle">
+                    <solid
+                        android:color="@color/bosch_button_checkbox_background"/>
+                    <size
+                        android:width="@dimen/gu3"
+                        android:height="@dimen/gu3"/>
+                    <padding
+                        android:bottom="@dimen/gu1.5"
+                        android:left="@dimen/gu2"
+                        android:right="@dimen/gu2"
+                        android:top="@dimen/gu1.5"/>
+                </shape>
+            </item>
+
+            <item
+                android:drawable="@drawable/bosch_ic_checkbox_icon"/>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item
+                android:bottom="@dimen/gu1.5"
+                android:left="@dimen/gu2"
+                android:right="@dimen/gu2"
+                android:top="@dimen/gu1.5">
+                <shape android:shape="rectangle">
+                    <solid
+                        android:color="@color/boschLightGrayW75"/>
+                    <size
+                        android:width="@dimen/gu3"
+                        android:height="@dimen/gu3"/>
+                    <padding
+                        android:bottom="@dimen/gu1.5"
+                        android:left="@dimen/gu2"
+                        android:right="@dimen/gu2"
+                        android:top="@dimen/gu1.5"/>
+                </shape>
+            </item>
+
+            <item
+                android:drawable="@drawable/bosch_ic_checkbox_icon_gray"/>
+        </layer-list>
+    </item>
+</selector>

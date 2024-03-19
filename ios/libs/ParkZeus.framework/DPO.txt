@@ -1,0 +1,144 @@
+<b>Data Protection Notice</b>
+<br/><br/><b>Automobility Services and Solutions Private Limited </b> (Hereinafter "Bosch") welcomes you to our internet pages and mobile applications (together also referred to as "Online Offers"). We thank you for your interest in our company and our products.
+
+<br/><br/> <b>1. Bosch respects your privacy</b>
+<br/><br/>The protection of your privacy throughout the course of processing personal data as well as the security of all business data are important concerns to us. We process personal data that was gathered during your visit of our Online Offers confidentially and only in accordance with statutory regulations.
+<br/><br/>Data protection and information security are included in our corporate policy.
+<br/><br/><b>2. Controller/Fiduciary</b>
+<br/><br/>Bosch is the Controller/Fiduciary responsible for the processing of your data; exceptions are outlined in this data protection notice.
+<br/><br/>Our contact details are as follows:
+<br/><br/>Automobility Services and Solutions Private Limited,
+<br/>Hosur Road,
+<br/>Adugodi,
+<br/>Bengaluru - 560030,
+<br/>Karnataka,
+<br/>India.
+<br/>For Corporate Log-In users, the employer is the sole Controller.
+<br/><br/><b>3. Collection, processing and usage of personal data
+<br/><br/>  3.1 Processed categories of data</b>
+<br/><br/>The following categories of data are processed:
+<style>
+    ul {
+        padding-left:10;
+    }
+</style>
+<br/><br/><b>3.1.1 For Signed In Users</b>
+<ul>
+    <li>Personal data (First Name, Last Name, Mobile Number, Device ID, current location, Email-ID, Vehicle registration number)</li>
+    <li>Communication and notification</li>
+</ul>
+<br/><b>3.1.2 For Non Sign In Users</b>
+<ul>
+    <li>Personal data - Nil</li>
+    <li>Communication and notification</li>
+</ul>
+<br/><br/><b>3.2 Principles</b>
+<br/><br/>Personal data consists of all information related to an identified or identifiable natural person, this includes, e.g. names, addresses, phone numbers, email addresses, contractual master data, contract accounting and payment data, which is an expression of a person's identity.
+<br/><br/>We collect, process and use personal data only when there is either a statutory legal basis to do so or if you have given your consent to the processing or use of personal data concerning this matter
+<br/><br><b>3.3 Processing purposes and legal basis</b>
+<br/><br/>We as well as the service providers commissioned by us; process your personal data for the following processing purposes:
+<br/><br/><i>3.3.1 Provision of these Online Offers</i>
+<br/><br/>Legal basis: Consent.
+<br/><br/><i>3.3.2 Resolving service disruptions as well as for security reasons.</i>
+<br/><br/>Legal basis: Consent and Fulfillment of our legal obligations within the scope of data security.
+<br/><br><b>3.4 Registration</b>
+<br/><br/>If you wish to use or get access to our offers and benefits (Example, favorite parking space selection) we request you to register with us. On the basis of your consent collected during registration, we will proces personal data necessary to provide your access to our offers and benefits (e.g. First Name, Last Name, Mobile Number, Device ID, current location,
+Email-ID, Address, Photo, if applicable)We may also collectas well as further data on voluntary basis, if
+applicable. Mandatory information is marked with an *.
+<br/><br/><b>3.5 Log files</b>
+<br/><br/>Each time you use the internet, your browser is transmitting certain information which we store in so-called log files.
+<br/><br/>We store log files to determine service disruptions and for security reasons (e.g., to investigate attack attempts) for a period of 6 months and delete them afterwards. Log files which need to be maintained for evidence purposes are excluded from deletion until the respective incident is resolved and may, on a case-by-case basis, be passed on to investigating authorities.
+<br/><br/>Log files are also used for analysis purposes (without the IP address or without the complete IP address)
+<br/><br/>In log files, the following information is saved:
+<ul>
+    <li>IP address (internet protocol address) of the terminal device used to access the Online Offer;</li>
+    <li>Internet address of the website from which the Online Offer is accessed (so-called URL of origin or referrer URL);</li>
+    <li>Name of the service provider which was used to access the Online Offer;</li>
+    <li>Name of the files or information accessed;</li>
+    <li>Date and time as well as duration of recalling the data;</li>
+    <li>Amount of data transferred;</li>
+    <li>Operating system and information on the internet browser used, including add-ons installed (e.g., Flash Player);</li>
+    <li>http status code (e.g., "Request successful" or "File requested not found").</li>
+</ul>
+<br/><br/><b>3.6 Children</b>
+<br/><br/>This Online Offer is not meant for children under 18 years of age.
+<br/><br/><b>3.7 Service providers (general)</b>
+<br/><br/>We involve external service providers with tasks such as sales and marketing services, contract management, payment handling, programming, data hosting and hotline services. We have chosen those service providers carefully and monitor them on a regular basis, especially regarding their diligent handling of and protection of the data that they store. All service providers are obliged to maintain confidentiality and to comply with the statutory provisions. Service providers may also be other Bosch group companies.
+<br/><br/><b>3.8 Duration of storage, retention periods</b>
+<br/><br/>Principally, we store your data for as long as it is necessary to render our Online Offers and connected services as consented by you or for as long as we have a legitimate use. In all other cases we delete your personal data with the exception of data we are obliged to store for the fulfillment of legal obligations (e.g. due to retention periods under the tax and commercial codes we are obliged to have documents such as contracts and invoices available for a certain period of time).
+<br/><br/><b>4. Usage of Cookies</b>
+<br/><br/>In the context of our online service, cookies and tracking mechanisms may be used.
+<br/><br/>Cookies are small text files that may be stored on your device when visiting our online service.
+<br/><br/>Tracking is possible using different technologies. In particular, we process information using pixel technology and/or during log file analysis.
+<br/><br/><b>4.1 Categories</b>
+<br/><br/>We distinguish between cookies that are mandatorily required for the technical functions of the online service and such cookies and tracking mechanisms that are not mandatorily required for the technical function of the online service.
+<br/><br/>It is generally possible to use the online service without any cookies that serve non-technical purposes.
+<br/><br/><b><i>4.1.1 Technically required cookies</b></i>
+<br/><br/>By technically required cookies we mean cookies without those the technical provision of the online service cannot be ensured. These include e.g. cookies that store data to ensure smooth reproduction of video or audio footage.
+<br/><br/>Such cookies will be deleted when you leave the website/webportal which are mentioned below.
+<br/><br/>1.    Auth: Access Token will be stored for the session purpose
+<br/><br/>2.    Refresh: Refresh Token will be stored for the session purpose
+<br/><br/>3.    UserID: User identification will be stored for the better performance
+<br/><br/>4.    TokenExpTime: Token expiry time stored to validate the session
+<br/><br/>5.    cliId : Client ID technical cookie  stored to validate the session
+<br/><br/>6.    cliSec: Client secrete ID technical cookie  stored  to validate the session
+
+<br/><br/><b>General</b>
+<br/><br/>By using marketing cookies and tracking mechanisms we and our partners are able to show you offerings based on your interests, resulting from an analysis of your user behavior:
+<br/><br/>Please note that using the tools might include transfer of your data to recipients outside of India (e.g. the USA). For more details in this respect, please refer to the following description of the individual marketing tools:
+<br/><br/><b>Name: Google Analytics</b>
+<br/><br/>Provider: Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+<br/><br/>Function: Analysis of user behavior (page retrievals, number of visitors and visits, downloads), creation of pseudonymous user profiles based on cross-device information of logged-in Google users (cross-device tracking), enrichment of pseudonymous user data with target group-specific information provided by Google, retargeting, UX testing, conversion tracking and retargeting in conjunction with Google Ads
+<br/><br/><b>4.3 Management of cookies and tracking mechanisms</b>
+<br/><br/>You can manage your cookie and tracking mechanism settings in the browser and/or our privacy settings.
+<br/><br/>Note: The settings you have made refer only to the browser used in each case.
+<br/><br/><b><i>4.3.1 Deactivation of all cookies</b></i>
+<br/><br/>If you wish to deactivate all cookies, please deactivate cookies in your browser settings. Please note that this may affect the functionality of the website.
+<br/><br/><b>5. Usage of our mobile applications</b>
+<br/><br/>In addition to our Online Offers, we offer mobile applications ("Apps"), which you can download to your mobile device. Beyond the data collected on websites, we collect additional personal data through our apps that specifically result from the usage of a mobile device. This is subject to your prior consent.
+<br/><br/><b>5.1 Processing of your location data</b>
+<br/><br/>Our offers also include so-called location based services through which we provide you with special offers that are tailored to your respective location. To offer this app function, we collect the last three GPS locations delivered by the mobile device and your IP address when you consent. We do not create a movement profile. You can deactivate this function in the respective app's settings or in the settings of the operating system of your mobile device or pause it temporarily without affecting the basic functionality of the app.
+<br/><br/>Prior to using location data, it must be ruled out that this is not a telecommunications service
+<br/><br/>Thus, the usage of this module requires an examination by the decentralized subject matter experts group with approval by the central department responsible.
+<br/><br/><b>5.1.1 Google Analytics for mobile applications</b>
+<br/><br/>Google Analytics is provided by Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA ("Google"). We use Google Analytics with the additional function offered by Google to anonymize IP addresses. While doing so, Google already shortens IPs within the EU in most cases and only does so in the United States in exceptional cases, while always saving shortened IPs only.
+<br/><br/><b>Google Maps & API Services for mobile applications</b>
+<br/><br/>Google Maps is provided by Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA ("Google"). We use Google Map services as installed on your mobile phone and linked to your phone number, to display the map, display the parking spaces , searching places , latitude longitude to physical address conversion, route , distance, ETA from source and destination. The Google Maps Services are subject to applicable Google Maps Terms of Use in the version available at the time of use of Google Maps Services on your mobile phone.
+<br/><br/><b>Poppins font for Web application</b>
+<br/><br/>Poppins font is provided by Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA ("Google").
+<br/><br/>https://fonts.google.com/specimen/Poppins?query=pop#standard-styles
+<br/><br/>We use Fonts services to display the text on web browsers
+<br/><br/><b>Firebase crash analysis</b>
+<br/><br/>Bosch uses Firebase application for performing crash analysis, whenever it occurs. For performing such crash analysis, Firebase may access, process, transfer, store and reproduce certain User Data. The type of data that is collected and processed and the purposes for which it is used is detailed in the following links -
+<br/>https://support.google.com/firebase/answer/6318039?hl=en
+<br/>and
+<br/>https://support.google.com/firebase/answer/6317486.
+<br/>User hereby permits Firebase acess and use of your User Data for the purpose of performing crash analysis.
+<br/><br/><b>5.2 App Store</b>
+<br/><br/><b>Data processing by App Store operators</b>
+<br/><br/>We do not collect data, and it is beyond our responsibility, when data, such as username, email address and individual device identifier are transferred to an app store (e.g., Google Play by Google, App Store by Apple, Galaxy Apps Store by Samsung) when downloading the respective application. We are unable to influence this data collection and further processing by the App Store its own capacity as Controller/Fiduciary.
+<br/><br/><b>6. External links</b>
+<br/><br/>Our Online Offers may contain links to internet pages of third parties, in particular providers who are not related to us. Upon clicking on the link, we have no influence on the collecting, processing and use of personal data possibly transmitted by clicking on the link to the third party (such as the IP address or the URL of the site on which the link is located) as the conduct of third parties is naturally beyond our control. We do not assume responsibility for the processing of personal data by third parties.
+<br/><br/><b>7. Security</b>
+<br/><br/>Our employees and the companies providing services on our behalf, are obliged to confidentiality and to compliance with the applicable data protection laws.
+<br/><br/>We take all necessary technical and organizational measures to ensure an appropriate level of security and to protect your data that are administrated by us especially from the risks of unintended or unlawful destruction, manipulation, loss, change or unauthorized disclosure or unauthorized access. Our security measures are, pursuant to technological progress, constantly being improved.
+<br/><br/><b>8. User rights</b>
+<br/><br/>To enforce your rights, please use the details provided in the Menu > Support section. In doing so, please ensure that an unambiguous identification of your person is possible.
+<br/><br/><b>Right to information and access</b>
+<br/><br/>You have the right to obtain confirmation from us about whether or not your personal data is being processed, and, if this is the case, access to your personal data.
+<br/><br/><b>Right to correction and deletion</b>
+<br/><br/>You have the right to obtain the rectification of inaccurate personal data.  As far as statutory requirements are fulfilled, you have the right to obtain the completion or deletion of your data.
+<br/><br/>This does not apply to data which is necessary for billing or accounting purposes or which is subject to a statutory retention period. If access to such data is not required, however, its processing is restricted (see the following).
+
+<br/><br/><b>Withdrawal of consent</b>
+<br/><br/>In case you consented to the processing of your data, you have the right to revoke this consent at any time with effect for the future. The lawfulness of data processing prior to your withdrawal remains unchanged.
+<br/><br/><b>9. Right to grievance redressal</b>
+<br/><br/>Step 1 - To assert your rights and to notify data protection incidents please use the following link: https://www.bkms-system.net/bosch-dataprotection
+For suggestions and complaints regarding the processing of your personal data we recommend that you contact our data protection officer: DPO.India@bosch.com
+<br/><br/>Step 2 – You can lodge complaint with supervisory authority:
+<br/><br/>You have the right to lodge a complaint with a supervisory authority. You can appeal to the supervisory authority which is responsible for your place of residence or your state of residency or to the supervisory authority responsible for us.
+<br/><br/><b>10. Changes to the Data Protection Notice</b>
+<br/><br/>We reserve the right to change our security and data protection measures. In such cases, we will amend our data protection notice accordingly. Please, therefore, notice the current version of our data protection notice, as this is subject to changes.
+
+<br/><br/>Effective date: [2023.15.12]
+<br/><br/>Document version: PZ_Data_Protection_NoticeV2.3

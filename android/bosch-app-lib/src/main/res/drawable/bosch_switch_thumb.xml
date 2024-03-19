@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <layer-list>
+            <item
+                android:bottom="@dimen/gu1.5"
+                android:left="@dimen/gu2"
+                android:right="@dimen/gu2"
+                android:top="@dimen/gu1.5">
+                <shape android:dither="true" android:shape="rectangle" android:useLevel="false" android:visible="true">
+                    <solid android:color="@color/boschWhite"/>
+                    <corners android:radius="100dp"/>
+                    <size android:width="@dimen/gu3" android:height="@dimen/gu3"/>
+                    <stroke android:width="@dimen/gu0.5" android:color="@android:color/transparent"/>
+                    <padding
+                        android:bottom="@dimen/gu1.5"
+                        android:left="@dimen/gu2"
+                        android:right="@dimen/gu2"
+                        android:top="@dimen/gu1.5"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="false">
+        <layer-list>
+            <item
+                android:bottom="@dimen/gu1.5"
+                android:left="@dimen/gu2"
+                android:right="@dimen/gu2"
+                android:top="@dimen/gu1.5">
+                <shape android:dither="true" android:shape="rectangle" android:useLevel="false" android:visible="true">
+                    <solid android:color="@color/boschLightGray"/>
+                    <corners android:radius="100dp"/>
+                    <size android:width="@dimen/gu3" android:height="@dimen/gu3"/>
+                    <stroke android:width="@dimen/gu0.5" android:color="@android:color/transparent"/>
+                    <padding
+                        android:bottom="@dimen/gu1.5"
+                        android:left="@dimen/gu2"
+                        android:right="@dimen/gu2"
+                        android:top="@dimen/gu1.5"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

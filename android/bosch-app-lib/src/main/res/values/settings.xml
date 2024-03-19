@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="option_bar_position" translatable="false">Option Bar Position</string>
+    <string name="option_bar_text" translatable="false">Option Bar Text</string>
+
+    <integer name="duration">300</integer>
+    <integer name="back_offset">500</integer>
+    <integer name="center_offset">900</integer>
+    <integer name="center_duration">200</integer>
+
+    <integer name="progress_indeterminate_duration">3500</integer>
+</resources>

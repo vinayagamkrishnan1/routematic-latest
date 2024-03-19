@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/gu6"
+              android:duplicateParentState="true"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+
+    <com.bosch.app.lib.widget.BoschLabel
+        android:id="@+id/list_title"
+        style="@style/Widget.Bosch.Label.Standard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingEnd="@dimen/gu4"
+        android:paddingStart="@dimen/gu4"
+        android:text="@string/app_name"
+        android:textColor="@color/bosch_list_sub_item"/>
+
+</LinearLayout>

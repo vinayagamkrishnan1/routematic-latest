@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/progressBackground"
+              style="@style/Widget.Bosch.ProgressIndicator"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/gu0.5"
+              android:layout_margin="@dimen/gu"
+              android:orientation="vertical">
+
+    <View
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bosch_gradient_darkblue_lightblue"
+        android:visibility="invisible"/>
+
+</LinearLayout>

@@ -1,0 +1,432 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="BoschAppTheme.StatusBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/boschLightGrayW25</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Base Bosch application theme. -->
+    <style name="BoschAppTheme" parent="BoschAppTheme.StatusBar">
+        <item name="buttonStyle">@style/Widget.Bosch.Button.Primary</item>
+        <item name="imageButtonStyle">@style/Widget.AppCompat.ImageButton</item>
+
+        <item name="colorPrimary">@color/boschDarkBlue</item>
+        <item name="colorAccent">@color/boschLightBlue</item>
+        <item name="colorButtonNormal">@color/bosch_button_primary</item>
+        <item name="fontFamily">@font/bosch_sans_regular</item>
+
+        <item name="boschColorPrimary">@color/boschDarkBlue</item>
+        <item name="boschColorHighlighted">@color/boschLightBlue</item>
+        <item name="boschColorInverted">@color/boschWhite</item>
+        <item name="boschColorPrimaryDisabled">@color/boschLightGray</item>
+        <item name="boschColorInvertedDisabled">@color/boschLightGrayB25</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- To Reduce padding of navigation drawer -->
+        <item name="listPreferredItemPaddingLeft">@dimen/gu0.5</item>
+
+        <!-- For transparent status bar -->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+    </style>
+
+
+    <!-- Bottom Navigation -->
+    <style name="Widget.Bosch.BottomNavigationBar" parent="Widget.Bosch.SubNavigationBar">
+        <item name="android:background">@drawable/bosch_navigationbar_bottom_background</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+<!--    <style name="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">-->
+<!--        -->
+<!--    </style>-->
+    <style name="Widget.Bosch.BottomNavigationBar.Text" parent="Widget.Bosch.OptionBar.Text">
+        <item name="android:textSize">@dimen/text_gu</item>
+        <item name="android:layout_marginTop">@dimen/gu0.5</item>
+        <item name="android:textColor">@color/bosch_navigationbar_text</item>
+    </style>
+
+    <style name="Widget.Bosch.BottomNavigationBar.Icon" parent="Widget.Bosch.OptionBar.Icon">
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Widget.Bosch.Button" parent="@style/Widget.AppCompat.Button">
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/boschWhite</item>
+        <item name="android:textSize">@dimen/text_gu2</item>
+        <item name="fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:maxHeight">@dimen/gu6</item>
+        <item name="android:minHeight">@dimen/gu6</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:overScrollMode">always</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:minWidth">@dimen/gu6</item>
+        <item name="android:paddingRight">@dimen/gu2</item>
+        <item name="android:paddingLeft">@dimen/gu2</item>
+        <item name="android:layout_margin">@dimen/gu</item>
+    </style>
+
+    <style name="Widget.Bosch.Button.Primary" parent="Widget.Bosch.Button">
+        <item name="android:background">@drawable/bosch_button_primary_shape</item>
+    </style>
+
+    <style name="Widget.Bosch.Button.Primary.Inverted" parent="@style/Widget.Bosch.Button">
+        <item name="android:background">@drawable/bosch_button_primary_inverted_shape</item>
+        <item name="android:textColor">@color/bosch_button_primary_inverted_fg</item>
+    </style>
+
+    <style name="Widget.Bosch.Button.Secondary" parent="@style/Widget.Bosch.Button">
+        <item name="android:background">@drawable/bosch_button_secondary_shape</item>
+        <item name="android:textColor">@color/bosch_button_primary</item>
+    </style>
+
+    <style name="Widget.Bosch.Button.Tertiary" parent="@style/Widget.Bosch.Button">
+        <item name="android:background">@drawable/bosch_button_tertiary_shape</item>
+        <item name="android:textColor">@color/bosch_button_primary</item>
+    </style>
+
+    <!-- Checkbox Styles -->
+    <style name="Widget.Bosch.CheckBox" parent="@style/Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:button">@drawable/bosch_button_checkbox</item>
+        <item name="android:paddingRight">@dimen/gu</item>
+        <item name="android:paddingLeft">-8dp</item>
+        <item name="android:layout_margin">@dimen/gu</item>
+        <item name="android:minHeight">@dimen/gu6</item>
+        <item name="android:textColor">@color/bosch_button_text_color</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/text_gu1.5</item>
+    </style>
+
+    <!-- Divider Style -->
+    <style name="Widget.Bosch.Divider" parent="android:Widget">
+        <item name="android:maxHeight">@dimen/lu</item>
+        <item name="android:minHeight">@dimen/lu</item>
+        <item name="android:background">@color/boschLightGrayW50</item>
+    </style>
+
+    <!-- Dropdown Style -->
+    <style name="Widget.Bosch.Dropdown" parent="@style/Widget.AppCompat.Spinner">
+        <item name="android:spinnerMode">dialog</item>
+        <item name="android:minHeight">@dimen/gu6</item>
+        <item name="android:layout_margin">@dimen/gu</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Widget.Bosch.Dropdown.Label" parent="">
+        <item name="android:layout_marginEnd">@dimen/gu2.5</item>
+        <item name="android:layout_marginStart">@dimen/gu2</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="fontFamily">@font/bosch_sans_medium</item>
+        <item name="android:fontFamily">@font/bosch_sans_medium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/bosch_button_text_color</item>
+        <item name="android:textSize">@dimen/text_gu</item>
+    </style>
+
+    <style name="Widget.Bosch.Dropdown.Text" parent="">
+        <item name="android:layout_marginEnd">@dimen/gu2.5</item>
+        <item name="android:layout_marginStart">@dimen/gu2</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">@font/bosch_sans_regular</item>
+        <item name="fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/bosch_button_text_color</item>
+        <item name="android:textSize">@dimen/text_gu1.5</item>
+    </style>
+
+    <!-- Header -->
+    <style name="Widget.Bosch.AppHeader" parent="@style/Widget.Design.AppBarLayout">
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Header Toolbar -->
+    <style name="Widget.Bosch.Toolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="toolbarStyle">@style/Widget.Bosch.Toolbar.Style</item>
+        <item name="toolbarNavigationButtonStyle">@style/Widget.Bosch.Toolbar.Navigation.Button</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Bosch.Toolbar.ActionButton.Overflow</item>
+    </style>
+
+    <style name="Widget.Bosch.Toolbar.Style" parent="Widget.AppCompat.Toolbar">
+        <item name="maxButtonHeight">@dimen/gu6</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="contentInsetStart">@dimen/gu2</item>
+        <item name="contentInsetEnd">@dimen/gu2</item>
+        <item name="titleTextAppearance">@style/Widget.Bosch.Toolbar.TitleText</item>
+        <item name="contentInsetStartWithNavigation">@dimen/gu8</item>
+        <item name="android:background">@color/boschWhite</item>
+    </style>
+
+    <style name="Widget.Bosch.Toolbar.Navigation.Button" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">48dp</item>
+    </style>
+
+    <style name="Widget.Bosch.Toolbar.ActionButton.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+    </style>
+
+    <style name="Widget.Bosch.Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:textSize">@dimen/text_gu2</item>
+    </style>
+
+    <!-- Label Styles -->
+    <style name="Widget.Bosch.Label.Small" parent="">
+        <item name="android:textSize">@dimen/text_gu</item>
+        <item name="android:layout_margin">@dimen/gu</item>
+        <item name="android:fontFamily">@font/bosch_sans_regular</item>
+        <item name="fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:textColor">@color/bosch_button_text_color</item>
+    </style>
+
+    <style name="Widget.Bosch.Label.Standard" parent="@style/Widget.Bosch.Label.Small">
+        <item name="android:textSize">@dimen/text_gu1.5</item>
+    </style>
+
+    <style name="Widget.Bosch.Label.Headline" parent="@style/Widget.Bosch.Label.Small">
+        <item name="android:textSize">@dimen/text_gu2</item>
+    </style>
+
+    <!-- Menu -->
+    <style name="Widget.Bosch.Menu" parent="android:Widget.Material.ListPopupWindow">
+        <item name="android:popupElevation">1dp</item>
+        <item name="android:popupBackground">@drawable/bosch_popover_background</item>
+    </style>
+
+    <style name="Widget.Bosch.Menu.Animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <!-- Option Bar -->
+    <style name="Widget.Bosch.OptionBar" parent="BoschAppTheme">
+        <item name="android:minHeight">@dimen/gu8</item>
+        <item name="android:layout_margin">@dimen/gu</item>
+    </style>
+
+    <!-- Option Bar and Sub / Bottom Navigation Bar -->
+    <style name="Widget.Bosch.OptionBar.Text" parent="@style/android:Widget.TextView">
+        <item name="android:textSize">@dimen/text_gu1.5</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:fontFamily">@font/bosch_sans_regular</item>
+    </style>
+
+    <style name="Widget.Bosch.OptionBar.Icon" parent="">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:maxHeight">@dimen/gu3</item>
+        <item name="android:minHeight">@dimen/gu3</item>
+        <item name="android:minWidth">@dimen/gu3</item>
+        <item name="android:maxWidth">@dimen/gu3</item>
+        <item name="android:paddingRight">@dimen/gu</item>
+    </style>
+
+    <!-- Page Indicator Style -->
+    <style name="Widget.Bosch.PageIndicator" parent="@style/Widget.Design.TabLayout">
+        <item name="tabBackground">@drawable/bosch_page_indicator_selector</item>
+        <item name="tabGravity">center</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabMaxWidth">@dimen/gu3</item>
+        <item name="android:layout_marginTop">@dimen/gu</item>
+        <item name="android:layout_marginBottom">@dimen/gu</item>
+        <item name="android:layout_marginLeft">@dimen/gu2.5</item>
+        <item name="android:layout_marginRight">@dimen/gu2.5</item>
+        <item name="tabMode">fixed</item>
+    </style>
+
+    <!-- Progress Indicator -->
+    <style name="Widget.Bosch.ProgressIndicator" parent="@android:style/Theme.Holo">
+        <item name="android:background">@color/boschLightGray</item>
+    </style>
+
+    <!-- Radio Button Styles -->
+    <style name="Widget.Bosch.RadioButton" parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/bosch_button_radio</item>
+        <item name="android:minHeight">@dimen/gu6</item>
+        <item name="android:layout_margin">@dimen/gu</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingRight">@dimen/gu</item>
+        <item name="android:paddingLeft">-8dp</item>
+        <item name="android:textSize">@dimen/text_gu1.5</item>
+        <item name="fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:textColor">@color/bosch_button_text_color</item>
+    </style>
+
+    <!-- Side Navigation -->
+    <style name="Widget.Bosch.SideNavigation.Header.Title" parent="@style/android:Widget.TextView">
+        <item name="fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:textColor">@color/boschWhite</item>
+        <item name="android:layout_marginLeft">@dimen/gu1.5</item>
+        <item name="android:layout_marginBottom">@dimen/gu1.5</item>
+        <item name="android:layout_marginTop">@dimen/gu6</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textSize">@dimen/text_gu2.5</item>
+    </style>
+
+    <style name="Widget.Bosch.SideNavigation.Header.Subtitle" parent="@style/android:Widget.TextView">
+        <item name="fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:textColor">@color/boschWhite</item>
+        <item name="android:layout_marginLeft">@dimen/gu1.5</item>
+        <item name="android:layout_marginBottom">@dimen/gu</item>
+        <item name="android:textSize">@dimen/text_gu2</item>
+    </style>
+
+    <style name="Widget.Bosch.SideNavigation" parent="Widget.Design.NavigationView">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_marginRight">@dimen/gu2.5</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:paddingBottom">@dimen/gu</item>
+        <item name="android:paddingLeft">?listPreferredItemPaddingLeft</item>
+        <item name="itemTextAppearance">@style/Widget.Bosch.SideNavigation.Item.TextAppearance</item>
+        <item name="itemIconTint">@color/bosch_button_tertiary_inverted</item>
+        <item name="android:theme">@style/Widget.Bosch.SideNavigation.Item.Theme</item>
+    </style>
+
+    <style name="Widget.Bosch.SideNavigation.Item.TextAppearance" parent="">
+        <item name="fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:textSize">@dimen/text_gu2</item>
+        <item name="android:textColor">@color/bosch_button_tertiary_inverted</item>
+    </style>
+
+    <style name="Widget.Bosch.SideNavigation.Item.Theme" parent="">
+        <!-- To get rid of default android gray ripple click effect -->
+        <item name="colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+    <!-- Slider Style -->
+    <style name="Widget.Bosch.Slider" parent="@style/Widget.AppCompat.SeekBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:thumb">@drawable/bosch_slider_thumb</item>
+        <item name="android:progressDrawable">@drawable/bosch_slider_track</item>
+        <item name="android:thumbOffset">0dp</item>
+        <item name="android:padding">@dimen/gu</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+
+    <!-- Sub Navigation Bar -->
+    <style name="Widget.Bosch.SubNavigationBar" parent="Widget.Design.TabLayout">
+        <item name="android:background">@drawable/bosch_navigationbar_sub_background</item>
+        <item name="tabBackground">@android:color/transparent</item>
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabPaddingBottom">@dimen/lu</item>
+        <item name="tabPaddingTop">0dp</item>
+        <item name="tabPaddingStart">0dp</item>
+        <item name="tabPaddingEnd">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/gu6</item>
+        <item name="tabMaxWidth">0dp</item>
+    </style>
+
+    <!-- Switch Style -->
+    <style name="Widget.Bosch.Switch" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:thumb">@drawable/bosch_switch_thumb</item>
+        <item name="track">@drawable/bosch_switch_track</item>
+        <item name="android:minHeight">@dimen/gu6</item>
+        <item name="switchPadding">@dimen/gu</item>
+        <item name="android:layout_margin">@dimen/gu</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/text_gu1.5</item>
+        <item name="android:textColor">@color/bosch_button_text_color</item>
+    </style>
+
+    <!-- Text Field -->
+    <style name="Widget.Bosch.TextField" parent="@style/Widget.AppCompat.EditText">
+        <item name="android:maxHeight">@dimen/gu8</item>
+        <item name="android:minHeight">@dimen/gu8</item>
+        <item name="android:minWidth">@dimen/gu6</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/bosch_textfield_background</item>
+        <item name="android:paddingTop">@dimen/gu</item>
+        <item name="android:paddingLeft">@dimen/gu2</item>
+        <item name="android:paddingRight">@dimen/gu2</item>
+        <item name="android:paddingBottom">@dimen/gu3</item>
+        <item name="android:textSize">@dimen/text_gu1.5</item>
+        <item name="fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:fontFamily">@font/bosch_sans_regular</item>
+        <item name="android:textColor">@color/bosch_button_text_color</item>
+        <item name="android:textCursorDrawable">@drawable/bosch_textfield_cursor</item>
+        <item name="android:layout_margin">@dimen/gu</item>
+        <item name="android:theme">@style/BoschTextFieldHandle</item>
+        <item name="android:inputType">textVisiblePassword</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="BoschTextFieldHandle">
+        <item name="colorAccent">@color/boschLightBlue</item>
+        <item name="colorControlNormal">@color/boschLightBlue</item>
+        <item name="colorControlActivated">@color/boschLightBlue</item>
+    </style>
+
+    <!-- Value Modificator -->
+    <style name="Widget.Bosch.ValueModificator" parent="">
+        <item name="android:minHeight">@dimen/gu6</item>
+        <item name="android:maxHeight">@dimen/gu6</item>
+        <item name="android:layout_margin">@dimen/gu</item>
+    </style>
+
+    <style name="Widget.Bosch.ValueModificator.TextField" parent="Widget.Bosch.TextField">
+        <item name="android:maxHeight">@dimen/gu6</item>
+        <item name="android:minHeight">@dimen/gu6</item>
+        <item name="android:background">@drawable/bosch_value_modificator_textfield_background</item>
+        <item name="android:paddingBottom">@dimen/gu</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:inputType">numberDecimal|numberSigned</item>
+    </style>
+
+    <style name="Widget.Bosch.ValueModificator.Button" parent="Widget.Bosch.Button.Tertiary">
+        <item name="android:background">@drawable/bosch_button_tertiary_shape</item>
+        <item name="android:textColor">@color/bosch_value_modificator_button_label_color</item>
+        <item name="android:minHeight">@dimen/gu6</item>
+        <item name="android:maxHeight">@dimen/gu6</item>
+        <item name="android:minWidth">@dimen/gu6</item>
+        <item name="android:maxWidth">@dimen/gu6</item>
+        <item name="android:padding">@dimen/gu1.5</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <style name="Widget.Bosch.ValueModificator.Validation" parent="Widget.Bosch.Label.Small">
+        <item name="android:layout_margin">0dp</item>
+        <item name="fontFamily">@font/bosch_sans_medium</item>
+        <item name="android:fontFamily">@font/bosch_sans_medium</item>
+        <item name="android:paddingEnd">@dimen/gu2</item>
+        <item name="android:paddingStart">@dimen/gu2</item>
+        <item name="android:paddingTop">@dimen/gu0.25</item>
+    </style>
+
+    <!-- Section Header -->
+    <style name="Widget.Bosch.SectionHeader" parent="@style/Widget.Bosch.Label.Standard">
+        <item name="android:paddingLeft">@dimen/gu2</item>
+        <item name="android:paddingRight">@dimen/gu2</item>
+        <item name="priority">high</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxHeight">@dimen/gu6</item>
+        <item name="android:minHeight">@dimen/gu6</item>
+        <item name="android:background">@color/boschLightGrayW75</item>
+        <item name="android:textColor">@color/boschBlack</item>
+    </style>
+</resources>

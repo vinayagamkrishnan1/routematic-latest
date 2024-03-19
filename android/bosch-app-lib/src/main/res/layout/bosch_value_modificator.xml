@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              style="@style/Widget.Bosch.ValueModificator"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mod_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gu6"
+        android:layout_columnWeight="1"
+        android:background="@drawable/bosch_value_modificator_background"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/lu">
+
+        <com.bosch.app.lib.widget.BoschTextField
+            android:id="@+id/value_text"
+            style="@style/Widget.Bosch.ValueModificator.TextField"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <com.bosch.app.lib.widget.BoschButton
+            android:id="@+id/value_down"
+            style="@style/Widget.Bosch.ValueModificator.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:iconDrawable="@drawable/bosch_ic_less_minimize"/>
+
+        <com.bosch.app.lib.widget.BoschButton
+            android:id="@+id/value_up"
+            style="@style/Widget.Bosch.ValueModificator.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:iconDrawable="@drawable/bosch_ic_add"/>
+
+    </LinearLayout>
+
+    <com.bosch.app.lib.widget.BoschLabel
+        android:id="@+id/value_error"
+        style="@style/Widget.Bosch.ValueModificator.Validation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Error message"
+        android:visibility="invisible"/>
+
+</LinearLayout>

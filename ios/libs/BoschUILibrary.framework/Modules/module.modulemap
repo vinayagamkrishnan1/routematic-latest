@@ -1,0 +1,11 @@
+framework module BoschUILibrary {
+  umbrella header "BoschUILibrary.h"
+  export *
+
+  module * { export * }
+}
+
+module BoschUILibrary.Swift {
+  header "BoschUILibrary-Swift.h"
+  requires objc
+}

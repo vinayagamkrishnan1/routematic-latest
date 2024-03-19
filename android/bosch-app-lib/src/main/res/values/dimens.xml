@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Dimensions (GU) -->
+    <dimen name="gu0.25">2dp</dimen>
+    <dimen name="gu0.5">4dp</dimen>
+    <dimen name="gu0.75">6dp</dimen>
+    <dimen name="gu">8dp</dimen>
+    <dimen name="gu1.25">10dp</dimen>
+    <dimen name="gu1.5">12dp</dimen>
+    <dimen name="gu1.75">14dp</dimen>
+    <dimen name="gu2">16dp</dimen>
+    <dimen name="gu2.25">18dp</dimen>
+    <dimen name="gu2.5">20dp</dimen>
+    <dimen name="gu3">24dp</dimen>
+    <dimen name="gu3.5">28dp</dimen>
+    <dimen name="gu4">32dp</dimen>
+    <dimen name="gu5">40dp</dimen>
+    <dimen name="gu6">48dp</dimen>
+    <dimen name="gu7">56dp</dimen>
+    <dimen name="gu8">64dp</dimen>
+    <dimen name="gu9">72dp</dimen>
+    <dimen name="gu10">80dp</dimen>
+    <dimen name="gu12">96dp</dimen>
+    <dimen name="gu20">160dp</dimen>
+    <dimen name="gu22">176dp</dimen>
+    <dimen name="gu32">256dp</dimen>
+    <dimen name="gu34">272dp</dimen>
+
+    <!-- Line Units (LU) -->
+    <dimen name="lu">1.5dp</dimen>
+
+    <!-- Text -->
+    <dimen name="text_gu">10sp</dimen>
+    <dimen name="text_gu1.5">16sp</dimen>
+    <dimen name="text_gu2">21sp</dimen>
+    <dimen name="text_gu2.5">26sp</dimen>
+
+    <!-- Navigation Drawer -->
+    <dimen name="design_navigation_icon_size" tools:override="true">@dimen/gu3.5</dimen>
+    <dimen name="design_navigation_icon_padding" tools:override="true">@dimen/gu</dimen>
+
+</resources>

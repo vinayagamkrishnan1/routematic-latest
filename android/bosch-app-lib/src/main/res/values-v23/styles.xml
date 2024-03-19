@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BoschAppTheme.StatusBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/boschWhite</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>

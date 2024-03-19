@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">routematic</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">@string/CodePushStagingP10</string>
+    <string moduleConfig="true" name="CodePushStagingQA">0MB6qJ3VrPf3RX9lqybGLvaYOTwcBWFlsbxMB</string>
+    <string moduleConfig="true" name="CodePushStagingP10">46EtObN03vnEHJn-M1iVDX210WoK3ms92vyMN</string>
+    <string moduleConfig="true" name="CodePushProduction">0WrspvG1fcZbwL6kFlfWCBhQoNOby0LDAmJvE</string>
+    <string moduleConfig="true" name="CodePushPentest">31KRI_vxfWtKiki5cLXBObgjj814FUZW4VOQz</string>
+    <string name="geo_API_KEY">AIzaSyCyxwWNPefqPIUdxC9EjK77oZwpYZxAJyI</string>
+</resources>

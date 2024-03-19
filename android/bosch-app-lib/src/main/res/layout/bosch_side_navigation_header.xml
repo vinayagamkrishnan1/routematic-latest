@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/transparent"
+              android:orientation="vertical">
+
+    <com.bosch.app.lib.widget.BoschImageView
+        android:id="@+id/side_navigation_close"
+        android:layout_width="@dimen/gu6"
+        android:layout_height="@dimen/gu6"
+        android:padding="@dimen/gu1.5"
+        android:src="@drawable/bosch_ic_close"/>
+
+    <com.bosch.app.lib.widget.BoschLabel
+        android:id="@+id/side_navigation_title"
+        style="@style/Widget.Bosch.SideNavigation.Header.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.bosch.app.lib.widget.BoschLabel
+        android:id="@+id/side_navigation_subtitle"
+        style="@style/Widget.Bosch.SideNavigation.Header.Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtitle"/>
+
+</LinearLayout>
